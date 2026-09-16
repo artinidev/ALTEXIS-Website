@@ -1,0 +1,205 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-secondary: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif !important;
+}
+
+@layer base {
+  :root {
+    --color-procure-green: #123C32;
+    --color-accent-green: #8EDB68;
+    --color-warm-white: #F5F3EA;
+    --color-deep-charcoal: #111817;
+    --color-soft-sand: #DCD7C8;
+    --color-muted-slate: #5E6D68;
+    --color-pure-white: #FFFFFF;
+  }
+
+  *, *::before, *::after {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  html, body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    scroll-behavior: auto;
+    background-color: #F5F3EA;
+    color: #111817;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+    letter-spacing: -0.035em !important;
+  }
+
+  p, span, a, input, textarea, select, label, button {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  button, .font-heading-btn {
+    font-family: "Plus Jakarta Sans", "Inter", sans-serif !important;
+  }
+
+  html[lang="ar"],
+  html[dir="rtl"],
+  html[lang="ar"] *,
+  html[dir="rtl"] * {
+    font-family: "Cairo", "IBM Plex Sans Arabic", sans-serif !important;
+  }
+
+  #root {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    min-height: 100vh;
+    display: block;
+  }
+}
+
+/* Farmio Reusable Button & Container Utilities */
+.farmio-container {
+  border-radius: 2rem;
+}
+
+@media (min-width: 640px) {
+  .farmio-container {
+    border-radius: 2.75rem;
+  }
+}
+
+.farmio-btn-accent {
+  font-family: "Plus Jakarta Sans", "Inter", sans-serif !important;
+  background-color: #04846E;
+  color: #FFFFFF !important;
+  font-weight: 700;
+  font-size: 0.875rem;
+  border-radius: 9999px;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px 0 rgba(4, 132, 110, 0.35);
+}
+
+.farmio-btn-accent:hover {
+  background-color: #036f5c;
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px 0 rgba(4, 132, 110, 0.45);
+}
+
+.farmio-btn-dark {
+  font-family: "Plus Jakarta Sans", "Inter", sans-serif !important;
+  background-color: #04846E;
+  color: #FFFFFF !important;
+  font-weight: 700;
+  font-size: 0.875rem;
+  border-radius: 9999px;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px 0 rgba(4, 132, 110, 0.35);
+}
+
+.farmio-btn-dark:hover {
+  background-color: #036f5c;
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px 0 rgba(4, 132, 110, 0.45);
+}
+
+.farmio-btn-outline {
+  font-family: "Plus Jakarta Sans", "Inter", sans-serif !important;
+  background-color: transparent;
+  color: #04846E;
+  border: 1.5px solid #04846E;
+  font-weight: 700;
+  font-size: 0.875rem;
+  border-radius: 9999px;
+  transition: all 0.25s ease;
+}
+
+.farmio-btn-outline:hover {
+  border-color: #036f5c;
+  background-color: #04846E;
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px 0 rgba(4, 132, 110, 0.3);
+}
+
+.farmio-btn-outline-white {
+  font-family: "Plus Jakarta Sans", "Inter", sans-serif !important;
+  background-color: transparent;
+  color: #F5F3EA;
+  border: 1.5px solid rgba(245, 243, 234, 0.35);
+  font-weight: 700;
+  font-size: 0.875rem;
+  border-radius: 9999px;
+  transition: all 0.25s ease;
+}
+
+.farmio-btn-outline-white:hover {
+  border-color: #04846E;
+  color: #FFFFFF !important;
+  background-color: #04846E;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px 0 rgba(4, 132, 110, 0.3);
+}
+
+.farmio-pill-tag {
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F3EA;
+}
+::-webkit-scrollbar-thumb {
+  background: #123C32;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8EDB68;
+}
+
+/* ==========================================================================
+   High-Performance Rendering & Composite Optimizations
+   ========================================================================== */
+
+/* GPU Layer Promotion - Forces separate compositor layer for buttery 60/120fps */
+.gpu-layer {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Hardware-Accelerated Image Renders */
+img {
+  content-visibility: auto;
+  transform: translateZ(0);
+}
+
+/* Content Visibility Optimization for Below-The-Fold Sections */
+.section-content-visibility {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 600px;
+}
+
+/* Smooth Transition Performance */
+.smooth-gpu-transition {
+  will-change: transform, opacity;
+}

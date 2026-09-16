@@ -1,0 +1,37 @@
+{
+  "tag": "WHO WE ARE",
+  "headline": "Procurement expertise with a global perspective.",
+  "statement": "Industrial companies shouldn't have to navigate complex international procurement alone.",
+  "body1": "ALTEXIS was built around a singular mission: to act as an objective, dedicated buyer-side desk for industrial organizations sourcing equipment and materials across international markets.",
+  "body2": "We do not represent sellers or act as a passive marketplace. Our team works as a direct extension of your procurement function, helping you identify vetted manufacturers, validate commercial capabilities, compare competitive bids, and manage orders through to on-time delivery.",
+  "conclusion": "Our role isn't to replace your decision-making. It's to give you better intelligence, verified data, and total control to make it.",
+  "approach": {
+    "tag": "OPERATING PHILOSOPHY",
+    "headline": "Independent. Structured. Buyer-focused.",
+    "subtitle": "Four core principles that guide every procurement project we coordinate.",
+    "pillars": [
+      {
+        "title": "Buyer-First",
+        "desc": "We represent your interests exclusively. We have no hidden supplier commissions or locked distributor exclusivity."
+      },
+      {
+        "title": "Evidence-Driven",
+        "desc": "We rely on documented factory capabilities, verified commercial records, and technical compliance rather than vendor assumptions."
+      },
+      {
+        "title": "Transparent",
+        "desc": "You see every line item, original manufacturer quotation, Incoterm breakdown, and risk analysis clearly."
+      },
+      {
+        "title": "Practical & Reliable",
+        "desc": "We focus on actual operational results: getting the exact specified equipment from verified manufacturers to your project on schedule."
+      }
+    ]
+  },
+  "stats": [
+    { "value": "$140M+", "label": "Industrial Volume Sourced" },
+    { "value": "48+", "label": "Countries in Sourcing Corridor" },
+    { "value": "99.4%", "label": "Verified Supplier Accuracy" },
+    { "value": "18 Days", "label": "Average Lead Time Saved" }
+  ]
+}

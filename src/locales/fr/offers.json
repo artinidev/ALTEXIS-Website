@@ -1,0 +1,258 @@
+{
+  "hero": {
+    "badge": "Centre d’Affaires Agréé • Résidence El Ferdous, Dély Ibrahim",
+    "titlePrefix": "Création d’Entreprises &",
+    "titleHighlight": "Solutions d’Affaires Clé en Main",
+    "description": "Consultez directement l’ensemble de nos offres, tarifs et prestations : domiciliation légale, espaces de coworking & bureaux privatifs, création d’entreprise et conseil stratégique.",
+    "trust": {
+      "cnrc": "Agrément CNRC",
+      "cnrcVal": "100% Conforme à la loi",
+      "location": "Localisation Premium",
+      "locationVal": "Dély Ibrahim, Alger",
+      "services": "Services Inclus",
+      "servicesVal": "Courrier, Wi-Fi, Accueil",
+      "remote": "Gestion à Distance",
+      "remoteVal": "Accessible Diaspora & PME"
+    }
+  },
+  "sections": {
+    "s1": {
+      "tag": "Section 01",
+      "title": "Domiciliation d'entreprises",
+      "description": "Fixez votre siège social à Dély Ibrahim avec une adresse commerciale agréée et un contrat conforme au CNRC. Choisissez directement votre formule :",
+      "badge": "Attestation officielle fournie",
+      "silver": {
+        "tag": "Formule 01",
+        "billing": "Facturation annuelle",
+        "title": "Silver",
+        "desc": "Idéale pour les indépendants, freelances et créateurs d'entreprises nécessitant une adresse légale.",
+        "price": "7 000",
+        "unit": "DZD",
+        "period": "/ mois",
+        "label": "Tarif mensuel",
+        "featuresTitle": "Inclus dans la formule Silver :",
+        "features": [
+          "Siège social légal & adresse commerciale à Dély Ibrahim",
+          "Attestation de domiciliation conforme CNRC & services fiscaux",
+          "Réception et tri quotidien du courrier & des colis",
+          "Notification par email & SMS à chaque réception de courrier",
+          "Mise à disposition physique du courrier aux heures d’ouverture",
+          "Gestion des formalités 100% possible à distance"
+        ],
+        "cta": "Choisir la formule Silver"
+      },
+      "business": {
+        "badge": "RECOMMANDÉ",
+        "tag": "Formule 02",
+        "billing": "Offre Complète",
+        "title": "Business",
+        "desc": "Pour les PME, SARL et structures actives voulant numérisation du courrier et accès aux réunions.",
+        "price": "12 000",
+        "unit": "DZD",
+        "period": "/ mois",
+        "label": "Tarif mensuel",
+        "featuresTitle": "Tout ce qui est inclus dans Silver, plus :",
+        "features": [
+          "Numérisation (scan) immédiate et archivage sécurisé du courrier",
+          "4 heures de salle de réunion par mois incluses",
+          "Permanence téléphonique et accueil physique de vos visiteurs",
+          "Réexpédition postale de votre courrier sur demande",
+          "Accès prioritaire à l’espace détente et aux postes de travail",
+          "Support administratif et assistance formalités"
+        ],
+        "cta": "Choisir la formule Business"
+      },
+      "gold": {
+        "tag": "Formule 03",
+        "billing": "Pack Premium",
+        "title": "Gold",
+        "desc": "La solution tout-en-un pour dirigeants et entreprises exigeant présence physique et accompagnement.",
+        "price": "18 000",
+        "unit": "DZD",
+        "period": "/ mois",
+        "label": "Tarif mensuel",
+        "featuresTitle": "Tout ce qui est inclus dans Business, plus :",
+        "features": [
+          "8 jours d’accès au Coworking par mois inclus",
+          "8 heures de salle de réunion par mois incluses",
+          "Accompagnement administratif et fiscal prioritaire",
+          "Gestion des procurations et démarches administratives",
+          "Ligne téléphonique dédiée personnalisée sur demande",
+          "Conseiller dédié pour le suivi de votre entreprise"
+        ],
+        "cta": "Choisir la formule Gold"
+      }
+    },
+    "s2": {
+      "tag": "Section 02",
+      "title": "Espace Coworking & Bureaux",
+      "description": "Des espaces de travail professionnels, climatisés et équipés de fibre optique très haut débit pour travailler à la journée ou recevoir vos clients.",
+      "fiber": "Fibre 200 Mbps",
+      "drinks": "Café & Thés inclus",
+      "coworking": {
+        "badge": "Open Space Flexible",
+        "title": "Coworking",
+        "desc": "Poste de travail dans un environnement dynamique et calme, parfait pour freelances et nomades digitaux.",
+        "price": "1 500",
+        "unit": "DZD",
+        "period": "/ jour",
+        "label": "Tarif journalier",
+        "featuresTitle": "Prestations incluses :",
+        "features": [
+          "Accès libre à l’espace de 8h30 à 19h00 (du Samedi au Jeudi)",
+          "Connexion Internet très haut débit via fibre optique dédiée",
+          "Poste de travail électrifié avec sièges ergonomiques",
+          "Café de spécialité, thés et eau minérale à volonté",
+          "Cabines acoustiques insonorisées pour vos appels",
+          "Accès aux espaces détente et terrasse extérieure"
+        ],
+        "cta": "Réserver un poste Coworking"
+      },
+      "office": {
+        "topBadge": "Confidentialité Totale",
+        "badge": "Bureau Fermé & Équipé",
+        "title": "Bureau Privatif",
+        "desc": "Espace fermé et confidentiel, entièrement meublé, pour diriger votre activité ou recevoir vos collaborateurs.",
+        "price": "6 500",
+        "unit": "DZD",
+        "period": "/ jour",
+        "label": "Tarif journalier",
+        "featuresTitle": "Prestations incluses :",
+        "features": [
+          "Bureau fermé avec serrure privative (1 à 4 personnes)",
+          "Mobilier de direction ergonomique et caissons verrouillables",
+          "Climatisation réversible individuelle et lumière naturelle",
+          "Réseau internet sécurisé (Wi-Fi 6 & prise RJ45 directe)",
+          "Accueil physique personnalisé de vos clients et visiteurs",
+          "Ménage quotidien et charges locatives entièrement incluses"
+        ],
+        "cta": "Réserver un bureau privatif"
+      },
+      "meeting": {
+        "badge": "Capacité 6 à 20 personnes",
+        "title": "Salle de réunion",
+        "desc": "Espace haut de gamme pour vos présentations, formations, comités de direction et rendez-vous clients.",
+        "price": "8 000",
+        "unit": "DZD",
+        "period": "/ jour",
+        "label": "Tarif journalier",
+        "featuresTitle": "Prestations incluses :",
+        "features": [
+          "Écran interactif 4K / Vidéoprojecteur haute définition",
+          "Système de visioconférence professionnel Polycom/Logitech",
+          "Tableau blanc magnétique et prises connectées centrales",
+          "Pause-café complète offerte (café, thé, eaux minérales)",
+          "Accueil et orientation de vos participants par notre équipe",
+          "Configuration modulaire (table en U, théâtre ou boardroom)"
+        ],
+        "cta": "Réserver la salle de réunion"
+      }
+    },
+    "s3": {
+      "tag": "Section 03",
+      "title": "Assistance & Conseils",
+      "description": "Une équipe d’experts juridiques, fiscaux et digitaux à vos côtés pour sécuriser vos démarches et accélérer la croissance de votre entreprise en Algérie.",
+      "quoteDelay": "Devis sous 24h ouvrées",
+      "creation": {
+        "badge": "SARL • EURL • SPA • SNC",
+        "title": "Création d’entreprise",
+        "desc": "Prise en charge intégrale des formalités juridiques et administratives de constitution de votre société.",
+        "price": "Sur devis",
+        "pill": "Sur mesure",
+        "label": "Tarification",
+        "featuresTitle": "Périmètre de l'accompagnement :",
+        "features": [
+          "Conseil sur le choix de la forme juridique la plus adaptée",
+          "Rédaction des statuts en conformité avec le droit commercial",
+          "Coordination notariale pour enregistrement et publication légale",
+          "Obtention du Registre de Commerce (CNRC), NIF et NIS",
+          "Pack combiné Création juridique + Domiciliation du siège social",
+          "Accompagnement 100% à distance pour la diaspora & investisseurs"
+        ],
+        "cta": "Demander un devis Création"
+      },
+      "advisory": {
+        "badge": "Juridique & Fiscalité",
+        "title": "Conseils & accompagnement",
+        "desc": "Conseil personnalisé pour sécuriser vos contrats, optimiser votre fiscalité et guider vos choix stratégiques.",
+        "price": "Sur devis",
+        "pill": "Sur mesure",
+        "label": "Tarification",
+        "featuresTitle": "Périmètre de l'accompagnement :",
+        "features": [
+          "Conseil et veille fiscale continue (déclarations G50, bilan fiscal)",
+          "Rédaction et audit de contrats commerciaux & accords partenaires",
+          "Assistance lors des contrôles fiscaux et réglementaires",
+          "Accompagnement en droit des affaires et négociations B2B",
+          "Structuration stratégique pour passage à l’échelle",
+          "Confidentialité absolue et conseil sur mesure"
+        ],
+        "cta": "Demander un devis Conseil"
+      },
+      "digital": {
+        "badge": "Tech & Cybersécurité",
+        "title": "Transformation Digitale",
+        "desc": "Audit de cybersécurité, développement de solutions web/ERP et digitalisation de vos processus opérationnels.",
+        "price": "Sur devis",
+        "pill": "Sur mesure",
+        "label": "Tarification",
+        "featuresTitle": "Périmètre de l'accompagnement :",
+        "features": [
+          "Audit de vulnérabilités et renforcement de la sécurité applicative",
+          "Développement de plateformes web sur mesure et portails B2B",
+          "Intégration d’outils de gestion (ERP, CRM) et flux automatisés",
+          "Optimisation de la vitesse (Core Web Vitals) et de l’expérience UX",
+          "Conseil et plan de transition numérique globale d’entreprise",
+          "Maintenance continue et support technique sécurisé"
+        ],
+        "cta": "Demander un devis Digital"
+      }
+    }
+  },
+  "bottomCta": {
+    "badge": "Conseil & Devis Personnalisé",
+    "title": "Besoin d'une formule sur-mesure ou d'un conseil d'expert ?",
+    "desc": "Nos conseillers d'affaires sont à votre disposition pour vous orienter vers la solution la plus adaptée à vos impératifs juridiques, fiscaux et opérationnels.",
+    "ctaContact": "Contacter notre équipe",
+    "trust1": "Devis gratuit et sans engagement",
+    "trust2": "Réponse sous 24h ouvrées",
+    "trust3": "Accueil physique à Dély Ibrahim, Alger"
+  },
+  "modal": {
+    "badge": "Centre d’Affaires & Domiciliation • Dély Ibrahim",
+    "title": "Demande de Souscription & Devis",
+    "subtitle": "Remplissez ce formulaire pour recevoir un devis détaillé ou réserver votre service sous 24h ouvrées.",
+    "serviceLabel": "Prestation ou formule souhaitée",
+    "name": "Nom & Prénom",
+    "namePh": "Ex: Karim Benali",
+    "company": "Nom de l'entreprise / Projet",
+    "companyPh": "Ex: SARL Maghreb Tech / En création",
+    "email": "Email professionnel",
+    "emailPh": "contact@votre-entreprise.com",
+    "phone": "Numéro de téléphone / WhatsApp",
+    "phonePh": "+213 670 13 23 53",
+    "startDate": "Date de démarrage souhaitée",
+    "startDatePh": "Ex: Immédiat / Début du mois prochain",
+    "teamSize": "Nombre de personnes / postes",
+    "team1": "1 personne (Indépendant / Solo)",
+    "team2": "2 à 4 personnes (Équipe restreinte)",
+    "team3": "5 à 10 personnes (PME / Équipe)",
+    "team4": "Plus de 10 personnes / Événement",
+    "notes": "Précisions ou besoins spécifiques (Optionnel)",
+    "notesPh": "Précisez la nature de votre activité, statut juridique visé, options de numérisation ou besoin particulier...",
+    "trust1": "Agrément CNRC • Devis gratuit sans engagement",
+    "trust2": "Résidence El Ferdous, Dély Ibrahim",
+    "cancel": "Annuler",
+    "sendWa": "Envoyer via WhatsApp",
+    "sendEmail": "Envoyer par Email",
+    "sending": "Envoi en cours...",
+    "successTitle": "Demande transmise avec succès !",
+    "successDesc": "Notre équipe d’accueil et nos conseillers d’affaires prendront contact avec vous pour finaliser votre dossier.",
+    "refLabel": "Numéro de référence du dossier :",
+    "copied": "Copié",
+    "copy": "Copier",
+    "followWa": "Suivre sur WhatsApp",
+    "close": "Fermer",
+    "directCall": "Appel direct"
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "hero": {
+    "badge": "Certified Business Center • Residence El Ferdous, Dely Ibrahim",
+    "titlePrefix": "Company Setup &",
+    "titleHighlight": "Turnkey Business Solutions",
+    "description": "Explore all our offers, pricing, and services directly: legal company domiciliation, coworking spaces & private offices, company creation, and strategic advisory.",
+    "trust": {
+      "cnrc": "CNRC Certified",
+      "cnrcVal": "100% Legally Compliant",
+      "location": "Prime Location",
+      "locationVal": "Dely Ibrahim, Algiers",
+      "services": "Included Services",
+      "servicesVal": "Mail, Wi-Fi, Reception",
+      "remote": "Remote Management",
+      "remoteVal": "Accessible for Diaspora & SMBs"
+    }
+  },
+  "sections": {
+    "s1": {
+      "tag": "Section 01",
+      "title": "Company Domiciliation & Registered Office",
+      "description": "Establish your legal registered address in Dely Ibrahim with full CNRC compliance and certified mail management. Choose your plan directly:",
+      "badge": "Official certificate provided",
+      "silver": {
+        "tag": "Plan 01",
+        "billing": "Annual billing",
+        "title": "Silver",
+        "desc": "Ideal for freelancers, solo entrepreneurs, and founders requiring an official registered address.",
+        "price": "7,000",
+        "unit": "DZD",
+        "period": "/ month",
+        "label": "Monthly rate",
+        "featuresTitle": "Included in Silver plan:",
+        "features": [
+          "Legal registered office & commercial address in Dely Ibrahim",
+          "Domiciliation certificate compliant with CNRC & tax authorities",
+          "Daily mail & parcel reception and sorting",
+          "Instant email & SMS alerts upon mail reception",
+          "Physical mail pick-up during standard opening hours",
+          "100% remote administrative management available"
+        ],
+        "cta": "Choose Silver Plan"
+      },
+      "business": {
+        "badge": "RECOMMENDED",
+        "tag": "Plan 02",
+        "billing": "Complete Package",
+        "title": "Business",
+        "desc": "For SMBs and growing companies requiring digital mail scanning and meeting room credits.",
+        "price": "12,000",
+        "unit": "DZD",
+        "period": "/ month",
+        "label": "Monthly rate",
+        "featuresTitle": "Everything in Silver, plus:",
+        "features": [
+          "Instant mail scanning & secure digital archiving",
+          "4 hours of meeting room usage per month included",
+          "Phone reception and professional welcoming of your visitors",
+          "Postal mail forwarding upon request",
+          "Priority access to lounge and workspace desks",
+          "Dedicated administrative support & paperwork assistance"
+        ],
+        "cta": "Choose Business Plan"
+      },
+      "gold": {
+        "tag": "Plan 03",
+        "billing": "Premium Suite",
+        "title": "Gold",
+        "desc": "The all-inclusive executive solution for directors and companies requiring physical presence.",
+        "price": "18,000",
+        "unit": "DZD",
+        "period": "/ month",
+        "label": "Monthly rate",
+        "featuresTitle": "Everything in Business, plus:",
+        "features": [
+          "8 days of Coworking access per month included",
+          "8 hours of meeting room usage per month included",
+          "Priority legal, administrative, and tax advisory",
+          "Power of attorney handling & official administrative filings",
+          "Custom dedicated phone line available on request",
+          "Dedicated account manager for your business"
+        ],
+        "cta": "Choose Gold Plan"
+      }
+    },
+    "s2": {
+      "tag": "Section 02",
+      "title": "Coworking Space & Private Offices",
+      "description": "Professional, air-conditioned workspaces equipped with high-speed dedicated fiber internet for daily work or client meetings.",
+      "fiber": "200 Mbps Fiber",
+      "drinks": "Coffee & Tea included",
+      "coworking": {
+        "badge": "Flexible Open Space",
+        "title": "Coworking",
+        "desc": "Dedicated desk in a dynamic, quiet business atmosphere. Ideal for freelancers and digital nomads.",
+        "price": "1,500",
+        "unit": "DZD",
+        "period": "/ day",
+        "label": "Daily rate",
+        "featuresTitle": "Included amenities:",
+        "features": [
+          "Open access from 8:30 AM to 7:00 PM (Saturday to Thursday)",
+          "Ultra high-speed dedicated optical fiber Wi-Fi",
+          "Ergonomic seating & powered workstation setup",
+          "Unlimited specialty coffee, organic teas, and mineral water",
+          "Soundproof phone booths for private calls & video conferences",
+          "Access to relaxation lounge and outdoor terrace"
+        ],
+        "cta": "Book Coworking Pass"
+      },
+      "office": {
+        "topBadge": "Total Confidentiality",
+        "badge": "Private Furnished Office",
+        "title": "Private Office",
+        "desc": "Fully enclosed, furnished executive office designed for focused leadership and client meetings.",
+        "price": "6,500",
+        "unit": "DZD",
+        "period": "/ day",
+        "label": "Daily rate",
+        "featuresTitle": "Included amenities:",
+        "features": [
+          "Lockable private office (1 to 4 persons capacity)",
+          "Ergonomic executive furniture and lockable storage cabinets",
+          "Individual climate control & abundant natural daylight",
+          "Secure network (Wi-Fi 6 & direct RJ45 Ethernet ports)",
+          "Professional physical reception of your clients and partners",
+          "Daily cleaning and all utility charges fully inclusive"
+        ],
+        "cta": "Book Private Office"
+      },
+      "meeting": {
+        "badge": "Capacity 6 to 20 persons",
+        "title": "Meeting Room",
+        "desc": "Executive meeting and boardroom space for your client presentations, trainings, and board reviews.",
+        "price": "8,000",
+        "unit": "DZD",
+        "period": "/ day",
+        "label": "Daily rate",
+        "featuresTitle": "Included amenities:",
+        "features": [
+          "4K interactive display / high-definition projector setup",
+          "Professional Polycom/Logitech hybrid video conferencing system",
+          "Magnetic whiteboard, markers, and central power hubs",
+          "Full gourmet coffee and refreshments break included",
+          "Welcome and attendee orientation by our concierge team",
+          "Flexible layout options (U-shape, theater, or boardroom)"
+        ],
+        "cta": "Book Meeting Room"
+      }
+    },
+    "s3": {
+      "tag": "Section 03",
+      "title": "Advisory & Business Services",
+      "description": "A dedicated team of legal, tax, and digital experts by your side to secure compliance and scale your business in Algeria.",
+      "quoteDelay": "Quote within 24h",
+      "creation": {
+        "badge": "SARL • EURL • SPA • SNC",
+        "title": "Company Creation",
+        "desc": "End-to-end management of legal incorporation, bylaws drafting, and registry formalities in Algeria.",
+        "price": "Custom quote",
+        "pill": "Tailored",
+        "label": "Pricing",
+        "featuresTitle": "Service scope:",
+        "features": [
+          "Advisory on optimal corporate structure (SARL, EURL, SPA, SNC)",
+          "Drafting articles of incorporation compliant with Algerian commercial law",
+          "Notary coordination for official deeds registration and legal gazette",
+          "Obtaining Commercial Register (CNRC), Tax ID (NIF), and NIS",
+          "Combined Incorporation + Registered Office Domiciliation package",
+          "100% remote execution for diaspora and foreign investors"
+        ],
+        "cta": "Request Creation Quote"
+      },
+      "advisory": {
+        "badge": "Legal & Tax Advisory",
+        "title": "Advisory & Support",
+        "desc": "Personalized counsel to secure commercial contracts, optimize taxes, and guide strategic milestones.",
+        "price": "Custom quote",
+        "pill": "Tailored",
+        "label": "Pricing",
+        "featuresTitle": "Service scope:",
+        "features": [
+          "Ongoing Algerian tax advisory (monthly G50 filings, annual balance sheet)",
+          "Drafting and auditing B2B commercial agreements and partnerships",
+          "Assistance during tax inspections and regulatory audits",
+          "Corporate restructuring and scale-up strategic guidance",
+          "Guaranteed strict confidentiality and tailored partner alignment",
+          "Dedicated senior business counsel"
+        ],
+        "cta": "Request Advisory Quote"
+      },
+      "digital": {
+        "badge": "Tech & Cybersecurity",
+        "title": "Digital Transformation",
+        "desc": "Cybersecurity audits, custom B2B web/ERP application development, and workflow digitalization.",
+        "price": "Custom quote",
+        "pill": "Tailored",
+        "label": "Pricing",
+        "featuresTitle": "Service scope:",
+        "features": [
+          "Security vulnerability audits and application hardening",
+          "Custom web platforms and scalable B2B portals development",
+          "ERP/CRM systems integration and automated operational workflows",
+          "Web performance optimization (Core Web Vitals) & UX modernization",
+          "Strategic corporate digital roadmap and technology transition plan",
+          "Continuous maintenance and secure cloud infrastructure support"
+        ],
+        "cta": "Request Digital Quote"
+      }
+    }
+  },
+  "bottomCta": {
+    "badge": "Tailored Advisory & Quotation",
+    "title": "Need a custom solution or expert advice?",
+    "desc": "Our business advisors are available to guide you toward the most appropriate package for your legal, tax, and operational requirements.",
+    "ctaContact": "Contact Our Team",
+    "trust1": "Free quote with no commitment",
+    "trust2": "Response within 24 business hours",
+    "trust3": "Physical reception at Dely Ibrahim, Algiers"
+  },
+  "modal": {
+    "badge": "Business Center & Domiciliation • Dely Ibrahim",
+    "title": "Subscription & Quotation Request",
+    "subtitle": "Complete this form to receive a detailed quote or reserve your service within 24 business hours.",
+    "serviceLabel": "Desired service or plan",
+    "name": "Full Name",
+    "namePh": "e.g. Karim Benali",
+    "company": "Company Name / Project",
+    "companyPh": "e.g. SARL Maghreb Tech / In formation",
+    "email": "Business Email",
+    "emailPh": "contact@your-company.com",
+    "phone": "Phone Number / WhatsApp",
+    "phonePh": "+213 670 13 23 53",
+    "startDate": "Desired Start Date",
+    "startDatePh": "e.g. Immediate / Next month",
+    "teamSize": "Team Size / Desks",
+    "team1": "1 person (Solo / Founder)",
+    "team2": "2 to 4 persons (Small team)",
+    "team3": "5 to 10 persons (SMB / Team)",
+    "team4": "10+ persons / Corporate event",
+    "notes": "Specific Details or Notes (Optional)",
+    "notesPh": "Describe your activity, target legal form, scanning options, or special requests...",
+    "trust1": "CNRC Accredited • Free quote without commitment",
+    "trust2": "Residence El Ferdous, Dely Ibrahim",
+    "cancel": "Cancel",
+    "sendWa": "Send via WhatsApp",
+    "sendEmail": "Send by Email",
+    "sending": "Sending...",
+    "successTitle": "Request Received Successfully!",
+    "successDesc": "Our reception team and advisors will contact you shortly to finalize your file.",
+    "refLabel": "Dossier Reference Tracking ID:",
+    "copied": "Copied",
+    "copy": "Copy",
+    "followWa": "Follow-up on WhatsApp",
+    "close": "Close",
+    "directCall": "Direct Call"
+  }
+}

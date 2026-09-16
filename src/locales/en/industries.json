@@ -1,0 +1,49 @@
+{
+  "tag": "TARGET SECTORS",
+  "headline": "Built for demanding procurement environments.",
+  "subtitle": "We support organizations that depend on mission-critical equipment, materials, and verified industrial suppliers.",
+  "items": [
+    {
+      "id": "oil-gas",
+      "title": "Oil & Gas",
+      "subtitle": "Upstream, Midstream & Refining",
+      "desc": "Sourcing high-pressure valves, API 5L line pipes, flanges, drilling consumables, instrumentation, and certified spare parts for offshore and onshore assets.",
+      "specs": ["API 6D / 6A Specs", "NACE MR0175 Compliance", "Traceable MTR 3.1 & 3.2", "Ex-Proof Electricals"]
+    },
+    {
+      "id": "epc",
+      "title": "EPC & Engineering",
+      "subtitle": "Capital Project Delivery",
+      "desc": "Procurement coordination for engineering and construction projects with rigorous delivery schedules, custom fabrications, and multi-tier sub-supplier oversight.",
+      "specs": ["Project Package Bidding", "Expediting & Factory Audits", "Milestone Payment Structuring", "FAT/SAT Witness Coordination"]
+    },
+    {
+      "id": "manufacturing",
+      "title": "Manufacturing",
+      "subtitle": "OEMs & Heavy Industrial Plants",
+      "desc": "Continuous sourcing of industrial equipment, electrical drives, precision bearings, pneumatic actuators, raw metals, and essential tooling.",
+      "specs": ["High-Tolerance Components", "Scheduled Blanket Orders", "Secondary Vendor Hedging", "ISO Quality Certification"]
+    },
+    {
+      "id": "mro",
+      "title": "MRO Operations",
+      "subtitle": "Maintenance, Repair & Operations",
+      "desc": "Rapid sourcing for plant turnarounds and unexpected breakdowns, securing replacement pumps, mechanical seals, motors, and consumable spares.",
+      "specs": ["Critical Emergency Sourcing", "Obsolete Part Cross-Reference", "Air Freight Expediting", "OEM Equivalent Matching"]
+    },
+    {
+      "id": "fabrication",
+      "title": "Fabrication",
+      "subtitle": "Structural & Pressure Vessel Yards",
+      "desc": "Supply chain execution for structural steel, specialty alloys, welding consumables, vessel heads, and non-destructive testing accessories.",
+      "specs": ["ASME / EN Standard Plates", "Mill Test Certification", "Batch Chemical Traceability", "Custom Profile Extrusions"]
+    },
+    {
+      "id": "technical-services",
+      "title": "Industrial & Technical Services",
+      "subtitle": "Utilities, Mining & Power",
+      "desc": "Specialized procurement for power generation, mining operations, water treatment facilities, and heavy field service contractors.",
+      "specs": ["Heavy Duty Slurry Pumps", "High Voltage Switchgear", "Safety & Environmental Tech", "Long-Lead Spares Coordination"]
+    }
+  ]
+}

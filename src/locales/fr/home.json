@@ -1,0 +1,280 @@
+{
+  "hero": {
+    "eyebrow": "APPROVISIONNEMENT & SOURCING MONDIAL",
+    "headline": "Le bon fournisseur. La bonne décision.",
+    "supportingText": "ALTEXIS aide les entreprises industrielles à s'approvisionner auprès de fournisseurs internationaux fiables, avec l'expertise et la supervision nécessaires pour acheter en toute confiance.",
+    "primaryCta": "Déposer une Demande d'Achat",
+    "secondaryCta": "Découvrir nos Services"
+  },
+  "trustIntro": {
+    "eyebrow": "POURQUOI ALTEXIS",
+    "headline": "Acheter est bien plus que trouver un prix.",
+    "body": "La bonne décision d'achat dépend de l'identité du fournisseur, de sa capacité de livraison, des délais et de la cohérence des termes commerciaux pour votre entreprise. Nous apportons structure, expertise de sourcing et visibilité sur chaque besoin."
+  },
+  "trustCredibility": {
+    "eyebrow": "LA CONFIANCE DANS L'ACHAT",
+    "headline": "Construit autour de la confiance.",
+    "body": "Lorsque l'approvisionnement franchit les frontières, la confiance est primordiale. Nous aidons nos clients à aborder les fournisseurs inconnus et les exigences complexes avec une parfaite clarté.",
+    "pillars": [
+      {
+        "title": "Alignement Côté Acheteur",
+        "desc": "Priorité fiduciaire exclusive à l'acheteur, sans aucune commission fournisseur."
+      },
+      {
+        "title": "Accès Direct aux Usines",
+        "desc": "Relations directes avec les fabricants de premier rang sans intermédiaires."
+      },
+      {
+        "title": "Authentification Documentaire",
+        "desc": "Vérification rigoureuse des certifications, des ateliers et de la conformité export."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "CE QUE NOUS FAISONS",
+    "headline": "Là où l'approvisionnement devient complexe, nous intervenons.",
+    "subtitle": "Nous aidons les clients à naviguer parmi les fournisseurs étrangers et les spécifications techniques exigeantes.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Sourcing Fournisseurs",
+        "desc": "Nous identifions les fabricants, distributeurs et fournisseurs spécialisés capables de répondre à vos exigences."
+      },
+      {
+        "number": "02",
+        "title": "Vérification Fournisseurs",
+        "desc": "Nous évaluons l'identité, les documents, les capacités industrielles et les risques avant tout engagement."
+      },
+      {
+        "number": "03",
+        "title": "Gestion des Appels d'Offres (RFQ)",
+        "desc": "Nous coordonnons les demandes de devis et structurons les offres en analyses claires et comparables."
+      },
+      {
+        "number": "04",
+        "title": "Accompagnement Achat",
+        "desc": "Nous soutenons la communication avec les fournisseurs, la coordination et le suivi tout au long du processus."
+      },
+      {
+        "number": "05",
+        "title": "Sourcing International",
+        "desc": "Nous aidons les entreprises à étendre leur portée d'approvisionnement au-delà des marchés locaux."
+      }
+    ]
+  },
+  "statement": {
+    "headline": "Portée mondiale. Compréhension locale.",
+    "supportingText": "Nous relions les acheteurs industriels aux fabricants internationaux tout en maintenant un processus d'achat structuré, transparent et aligné sur vos exigences."
+  },
+  "howWeWork": {
+    "eyebrow": "NOTRE APPROCHE",
+    "headline": "Un processus clair. Une meilleure décision d'achat.",
+    "subtitle": "Quatre étapes rigoureuses conçues pour transformer vos besoins industriels en résultats d'achat maîtrisés.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Comprendre",
+        "desc": "Nous commençons par vos spécifications techniques, quantités, tolérances et impératifs de livraison."
+      },
+      {
+        "number": "02",
+        "title": "Sourcer",
+        "desc": "Nous identifions les usines et fournisseurs correspondant à vos critères techniques et commerciaux."
+      },
+      {
+        "number": "03",
+        "title": "Vérifier",
+        "desc": "Nous examinons les antécédents, licences et capacités des fournisseurs avant de poursuivre."
+      },
+      {
+        "number": "04",
+        "title": "Accompagner",
+        "desc": "Nous assurons la coordination du processus, de l'alignement des offres jusqu'à la livraison finale."
+      }
+    ]
+  },
+  "supplierInsight": {
+    "eyebrow": "ÉVALUATION FOURNISSEUR",
+    "headline": "Sachez exactement auprès de qui vous achetez.",
+    "body": "Un devis compétitif n'a de valeur que si le fournisseur peut réellement livrer. ALTEXIS offre une visibilité totale sur l'identité, les ateliers, les certificats et les risques avant toute décision stratégique.",
+    "checks": [
+      "Identité du Fournisseur & Conformité Légale",
+      "Capacités de Production & Inspection Ateliers",
+      "Normes Qualité & Certifications ISO/PED",
+      "Santé Financière & Historique d'Exportation"
+    ]
+  },
+  "industries": {
+    "eyebrow": "SECTEURS",
+    "headline": "L'approvisionnement pour les industries exigeantes.",
+    "subtitle": "Sourcing industriel de précision pour les secteurs où la conformité technique est impérative.",
+    "items": [
+      {
+        "title": "Pétrole & Gaz",
+        "desc": "Vannes certifiées API, tuyauteries sous-marines, raccords haute pression et instrumentation."
+      },
+      {
+        "title": "Ingénierie & EPC",
+        "desc": "Aciers de construction, packages d'équipements lourds et approvisionnement de chantiers majeurs."
+      },
+      {
+        "title": "Industrie Manufacturière",
+        "desc": "Composants usinés de haute précision, systèmes automatisés, ensembles OEM et matières premières."
+      },
+      {
+        "title": "MRO & Maintenance",
+        "desc": "Pièces de rechange critiques, composants mécaniques et consommables d'usine d'urgence."
+      },
+      {
+        "title": "Chaudronnerie & Fabrication",
+        "desc": "Alliages spéciaux, tôles pour appareils à pression, consommables de soudage et pièces forgées."
+      },
+      {
+        "title": "Services Industriels",
+        "desc": "Location d'équipements spécialisés, outillages techniques, bancs de contrôle et matériel de terrain."
+      }
+    ]
+  },
+  "globalSourcing": {
+    "eyebrow": "SOURCING MONDIAL",
+    "headline": "Lorsque le bon fournisseur n'est pas à proximité, regardez plus loin.",
+    "body": "Notre approche internationale permet aux entreprises d'accéder à des fabricants performants au-delà des marchés traditionnels, en préservant la qualité, la fiabilité et la valeur commerciale.",
+    "cta": "Discuter de votre Besoin"
+  },
+  "about": {
+    "eyebrow": "À PROPOS DE ALTEXIS",
+    "headline": "L'expertise des achats avec une perspective mondiale.",
+    "body": "ALTEXIS est né d'une conviction simple : les entreprises industrielles ne devraient pas affronter seules les défis des achats internationaux. Nous opérons aux côtés des acheteurs pour sélectionner les meilleures options en toute transparence.",
+    "cta": "En savoir plus sur nous"
+  },
+  "whyUs": {
+    "headline": "Pourquoi ALTEXIS",
+    "principles": [
+      {
+        "title": "Expérience",
+        "desc": "Les décisions d'achat exigent bien plus qu'une simple liste de fournisseurs."
+      },
+      {
+        "title": "Transparence",
+        "desc": "Des informations claires et auditées mènent aux meilleures décisions."
+      },
+      {
+        "title": "Fiabilité",
+        "desc": "Nous nous concentrons exclusivement sur des fabricants capables de répondre à vos exigences réelles."
+      },
+      {
+        "title": "Partenariat",
+        "desc": "Nous travaillons aux côtés de votre équipe plutôt que de simplement transmettre des devis."
+      }
+    ]
+  },
+  "testimonial": {
+    "eyebrow": "PERSPECTIVE CLIENT",
+    "quote": "ALTEXIS nous a permis de transformer un besoin de sourcing complexe en une décision d'achat claire et maîtrisée.",
+    "author": "Directeur Supply Chain & Grands Projets",
+    "company": "Groupe International d'Énergie et d'Infrastructures"
+  },
+  "insights": {
+    "eyebrow": "ANALYSES & PERSPECTIVES",
+    "headline": "Penser au-delà du bon de commande.",
+    "subtitle": "Perspectives stratégiques et repères pratiques pour les équipes d'achat industriel.",
+    "articles": [
+      {
+        "category": "Évaluation Fournisseur",
+        "readTime": "5 min de lecture",
+        "title": "Comment évaluer un fournisseur international",
+        "desc": "Un cadre d'analyse méthodique pour vérifier les compétences techniques et la solvabilité d'un fabricant étranger.",
+        "date": "Août 2026",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "category": "Sourcing Stratégique",
+        "readTime": "6 min de lecture",
+        "title": "Ce que les acheteurs doivent examiner au-delà du prix",
+        "desc": "Pourquoi le coût total débarqué, les garanties et les délais réels déterminent la véritable valeur d'un achat.",
+        "date": "Juil 2026",
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "category": "Gestion des Risques",
+        "readTime": "4 min de lecture",
+        "title": "Réduire les risques dans les achats internationaux",
+        "desc": "Méthodes éprouvées pour prémunir les projets industriels contre les non-conformités et les retards logistiques.",
+        "date": "Juin 2026",
+        "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "headline": "Questions fréquentes.",
+    "subtitle": "Des réponses directes sur notre manière de collaborer avec vos équipes industrielles.",
+    "questions": [
+      {
+        "q": "Quels types de produits ALTEXIS peut-il sourcer ?",
+        "a": "Nous prenons en charge les équipements industriels, pièces techniques, composants mécaniques et matériaux spécifiques selon vos exigences."
+      },
+      {
+        "q": "Travaillez-vous avec des fournisseurs internationaux ?",
+        "a": "Oui. Le sourcing international est au cœur même de notre méthodologie d'approvisionnement."
+      },
+      {
+        "q": "Comment évaluez-vous les fournisseurs ?",
+        "a": "Nous vérifions l'existence légale, les certifications officielles, les capacités d'ateliers et les facteurs de risque spécifiques."
+      },
+      {
+        "q": "Pouvez-vous comparer plusieurs devis d'achat ?",
+        "a": "Oui. Nous normalisons les offres pour permettre une comparaison objective du prix, des délais, des incoterms et des garanties."
+      },
+      {
+        "q": "ALTEXIS peut-il accompagner le projet après la sélection du fournisseur ?",
+        "a": "Oui. Selon la mission convenue, nous assurons la coordination avec les usines, le contrôle d'étape et le suivi logistique."
+      },
+      {
+        "q": "Comment démarrer ?",
+        "a": "Transmettez-nous votre cahier des charges et notre bureau d'achat examinera votre besoin immédiatement."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Vous avez un besoin d'approvisionnement ?",
+    "supportingText": "Partagez votre besoin. Nous vous aiderons à définir la solution d'achat la plus adaptée.",
+    "primaryCta": "Déposer une Demande d'Achat",
+    "secondaryCta": "Contacter notre Équipe"
+  },
+  "contactForm": {
+    "headline": "Dites-nous ce dont vous avez besoin.",
+    "subtitle": "Partagez vos spécifications techniques ou votre nomenclature pour examen par notre équipe d'experts.",
+    "fields": {
+      "name": "Nom complet",
+      "namePlaceholder": "ex. Jean Dupont",
+      "company": "Entreprise",
+      "companyPlaceholder": "ex. Groupe Industriel Européen",
+      "email": "Email professionnel",
+      "emailPlaceholder": "jean.dupont@entreprise.com",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+33 1 42 68 00 00",
+      "product": "Produit / Équipement",
+      "productPlaceholder": "ex. Vannes à boisseau sphérique forgées API 6D",
+      "quantity": "Quantité requise",
+      "quantityPlaceholder": "ex. 24 Unités",
+      "destination": "Port / Ville de destination",
+      "destinationPlaceholder": "ex. Port du Havre, France",
+      "deliveryDate": "Date de livraison souhaitée",
+      "specs": "Exigences techniques & Normes",
+      "specsPlaceholder": "Nuances de matière, conformité (ASME/API/ISO), classe de pression, tests...",
+      "uploadLabel": "Joindre un Cahier des Charges / RFQ (Optionnel)",
+      "uploadHint": "Déposez vos plans ou spécifications techniques (PDF, XLSX, DWG)",
+      "message": "Message ou contexte particulier",
+      "messagePlaceholder": "Précisez vos contraintes de délais, incoterms ou historique de projet...",
+      "submit": "Envoyer la Demande",
+      "submitting": "Transmission en cours..."
+    },
+    "success": {
+      "title": "Merci. Votre demande a bien été reçue.",
+      "body": "Notre bureau d'achat examine vos spécifications techniques et vous contactera sous 24 à 48h avec une première évaluation de sourcing.",
+      "reference": "N° de Référence",
+      "close": "Fermer"
+    }
+  }
+}

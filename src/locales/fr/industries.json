@@ -1,0 +1,49 @@
+{
+  "tag": "SECTEURS CLÉS",
+  "headline": "Conçu pour les environnements industriels exigeants.",
+  "subtitle": "Nous accompagnons les organisations dont les opérations reposent sur des équipements critiques et des fournisseurs irréprochables.",
+  "items": [
+    {
+      "id": "oil-gas",
+      "title": "Pétrole & Gaz",
+      "subtitle": "Amont, Aval & Raffinage",
+      "desc": "Sourcing de vannes haute pression, tubes de ligne API 5L, brides forgées, consommables de forage et pièces de rechange certifiées offshore/onshore.",
+      "specs": ["Normes API 6D / 6A", "Conformité NACE MR0175", "Certificats MTR 3.1 & 3.2", "Équipements Antidéflagrants (ATEX)"]
+    },
+    {
+      "id": "epc",
+      "title": "Ingénierie & Projets EPC",
+      "subtitle": "Grands Projets Industriels",
+      "desc": "Coordination des achats pour chantiers industriels avec calendriers critiques, fabrications sur mesure et supervision multi-fournisseurs.",
+      "specs": ["Lots complets d'achats projet", "Audits usine et expédition d'urgence", "Échelonnement des paiements par jalon", "Supervision des tests FAT / SAT"]
+    },
+    {
+      "id": "manufacturing",
+      "title": "Industrie Manufacturière",
+      "subtitle": "Sites de Production & Usines",
+      "desc": "Approvisionnement continu en équipements d'usine, variateurs électriques, roulements de précision, vérins pneumatiques et métaux bruts.",
+      "specs": ["Composants à haute tolérance", "Contrats-cadres d'approvisionnement", "Sécurisation multi-fournisseurs", "Certifications qualité ISO"]
+    },
+    {
+      "id": "mro",
+      "title": "Maintenance & Exploitation (MRO)",
+      "subtitle": "Arrêts d'Usine & Dépannage Urgent",
+      "desc": "Sourcing rapide pour arrêts programmés ou pannes critiques : pompes de remplacement, garnitures mécaniques, moteurs et pièces d'usure.",
+      "specs": ["Sourcing d'urgence 24/48h", "Équivalences techniques certifiées", "Fret aérien express sécurisé", "Traçabilité des références OEM"]
+    },
+    {
+      "id": "fabrication",
+      "title": "Chaudronnerie & Métallurgie",
+      "subtitle": "Structures & Appareils sous Pression",
+      "desc": "Approvisionnement en aciers spéciaux, alliages, consommables de soudage, fonds bombés et équipements de contrôle non destructif.",
+      "specs": ["Tôles normes ASME / EN", "Certificats matière d'origine aciérie", "Traçabilité chimique par coulée", "Profilés et découpes sur plan"]
+    },
+    {
+      "id": "technical-services",
+      "title": "Services Techniques & Énergie",
+      "subtitle": "Mines, Énergie & Services Publics",
+      "desc": "Achats spécialisés pour centrales électriques, exploitations minières, stations de traitement d'eau et prestataires d'ingénierie lourde.",
+      "specs": ["Pompes à boue haute résistance", "Postes et appareillages HT/MT", "Matériel de sécurité et filtration", "Gestion des pièces à long délai"]
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "hero": {
+    "eyebrow": "GLOBAL PROCUREMENT & SOURCING",
+    "headline": "The right supplier. The right decision.",
+    "supportingText": "ALTEXIS helps industrial companies source from reliable international suppliers, with the expertise and oversight needed to procure with confidence.",
+    "primaryCta": "Submit a Procurement Request",
+    "secondaryCta": "Explore Our Services"
+  },
+  "trustIntro": {
+    "eyebrow": "WHY ALTEXIS",
+    "headline": "Procurement is more than finding a price.",
+    "body": "The right procurement decision depends on who you buy from, what they can deliver, when they can deliver it, and whether the terms make sense for your business. We bring structure, sourcing expertise and supplier insight to every requirement."
+  },
+  "trustCredibility": {
+    "eyebrow": "TRUSTED IN PROCUREMENT",
+    "headline": "Built around confidence.",
+    "body": "When procurement crosses borders, trust matters. We help clients navigate unfamiliar suppliers, complex requirements and international sourcing with greater clarity.",
+    "pillars": [
+      {
+        "title": "Buyer-Side Alignment",
+        "desc": "100% fiduciary focus on buyer interests with zero supplier commissions."
+      },
+      {
+        "title": "Direct Mill Access",
+        "desc": "Direct engagement with vetted tier-1 manufacturers without brokers."
+      },
+      {
+        "title": "Document Authentication",
+        "desc": "Rigorous verification of certifications, facilities, and export compliance."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "WHAT WE DO",
+    "headline": "Where procurement gets difficult, we step in.",
+    "subtitle": "We help clients navigate unfamiliar suppliers, complex requirements and international sourcing with greater clarity.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Supplier Sourcing",
+        "desc": "We identify manufacturers, distributors and specialist suppliers capable of meeting your requirements."
+      },
+      {
+        "number": "02",
+        "title": "Supplier Verification",
+        "desc": "We help assess supplier identity, documentation, capabilities and relevant risk indicators before you commit."
+      },
+      {
+        "number": "03",
+        "title": "RFQ & Quote Management",
+        "desc": "We coordinate requests for quotation and organize supplier responses into clear, comparable information."
+      },
+      {
+        "number": "04",
+        "title": "Procurement Support",
+        "desc": "We support supplier communication, coordination and follow-up throughout the purchasing process."
+      },
+      {
+        "number": "05",
+        "title": "International Sourcing",
+        "desc": "We help businesses extend their procurement reach beyond local markets."
+      }
+    ]
+  },
+  "statement": {
+    "headline": "Global reach. Local understanding.",
+    "supportingText": "We connect industrial buyers with international suppliers while keeping the procurement process structured, transparent and focused on the client's requirements."
+  },
+  "howWeWork": {
+    "eyebrow": "OUR APPROACH",
+    "headline": "A clear process. A better procurement decision.",
+    "subtitle": "Four disciplined stages designed to turn complex industrial requirements into controlled, verifiable procurement outcomes.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Understand",
+        "desc": "We start with your requirement, specifications, quantity and delivery needs."
+      },
+      {
+        "number": "02",
+        "title": "Source",
+        "desc": "We identify suppliers that match your technical and commercial requirements."
+      },
+      {
+        "number": "03",
+        "title": "Verify",
+        "desc": "We review relevant supplier information before you move forward."
+      },
+      {
+        "number": "04",
+        "title": "Support",
+        "desc": "We help coordinate the procurement process from quotation through follow-up."
+      }
+    ]
+  },
+  "supplierInsight": {
+    "eyebrow": "SUPPLIER INSIGHT",
+    "headline": "Know who you're buying from.",
+    "body": "A competitive quotation is only valuable when the supplier behind it can deliver. ALTEXIS helps clients gain greater visibility into supplier identity, capabilities, documentation and relevant risk factors before making important procurement decisions.",
+    "checks": [
+      "Supplier Identity & Legal Authentication",
+      "Factory Capacity & Tooling Verification",
+      "Quality Standards & ISO/PED Certification",
+      "Financial Health & Export Readiness"
+    ]
+  },
+  "industries": {
+    "eyebrow": "INDUSTRIES",
+    "headline": "Procurement for demanding industries.",
+    "subtitle": "Specialized procurement intelligence and manufacturer sourcing across sectors where precision and compliance are non-negotiable.",
+    "items": [
+      {
+        "title": "Oil & Gas",
+        "desc": "API-certified valves, subsea piping, high-pressure fittings, and instrumentation."
+      },
+      {
+        "title": "EPC & Engineering",
+        "desc": "Bulk structural materials, heavy equipment packages, and major project supplies."
+      },
+      {
+        "title": "Manufacturing",
+        "desc": "Precision machined components, automated systems, OEM assemblies, and raw inputs."
+      },
+      {
+        "title": "MRO",
+        "desc": "Critical replacement parts, mechanical spares, maintenance tools, and plant consumables."
+      },
+      {
+        "title": "Fabrication",
+        "desc": "Specialty alloys, pressure vessel plates, welding consumables, and raw forgings."
+      },
+      {
+        "title": "Industrial Services",
+        "desc": "Specialized equipment rentals, tooling packages, inspection rigs, and field support hardware."
+      }
+    ]
+  },
+  "globalSourcing": {
+    "eyebrow": "GLOBAL SOURCING",
+    "headline": "When the right supplier isn't nearby, look further.",
+    "body": "Our international sourcing approach helps businesses access suppliers beyond traditional local markets while maintaining focus on quality, reliability and commercial value.",
+    "cta": "Discuss Your Requirement"
+  },
+  "about": {
+    "eyebrow": "ABOUT ALTEXIS",
+    "headline": "Industrial Procurement, Engineered for Direct Access",
+    "body": "Built by supply chain experts with extensive experience in global sourcing and procurement, ALTEXIS connects businesses with trusted suppliers and competitive solutions worldwide.",
+    "cta": "Learn More About Us"
+  },
+  "whyUs": {
+    "headline": "Why ALTEXIS",
+    "principles": [
+      {
+        "title": "Experience",
+        "desc": "Procurement decisions require more than a supplier list."
+      },
+      {
+        "title": "Transparency",
+        "desc": "Clear information leads to better decisions."
+      },
+      {
+        "title": "Reliability",
+        "desc": "We focus on suppliers capable of meeting real requirements."
+      },
+      {
+        "title": "Partnership",
+        "desc": "We work alongside your team rather than simply passing along quotations."
+      }
+    ]
+  },
+  "testimonial": {
+    "eyebrow": "CLIENT PERSPECTIVE",
+    "quote": "ALTEXIS helped us turn a complex sourcing requirement into a clear procurement decision.",
+    "author": "Director of Supply Chain & Capital Projects",
+    "company": "International Energy & Infrastructure Group"
+  },
+  "insights": {
+    "eyebrow": "INSIGHTS",
+    "headline": "Thinking beyond the purchase order.",
+    "subtitle": "Strategic perspectives and practical guidance for industrial procurement teams.",
+    "articles": [
+      {
+        "category": "Supplier Evaluation",
+        "readTime": "5 min read",
+        "title": "How to evaluate an international supplier",
+        "desc": "A structured framework for assessing overseas manufacturer credentials, physical capacity, and commercial reliability before commitment.",
+        "date": "Aug 2026",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "category": "Strategic Sourcing",
+        "readTime": "6 min read",
+        "title": "What procurement teams should consider beyond price",
+        "desc": "Why total landed cost, warranty recourse, lead-time variance, and counterparty exposure define true procurement value.",
+        "date": "Jul 2026",
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "category": "Risk Management",
+        "readTime": "4 min read",
+        "title": "Reducing risk in international sourcing",
+        "desc": "Key strategies to safeguard high-value industrial purchases from documentation fraud, spec deviations, and supply chain delays.",
+        "date": "Jun 2026",
+        "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "headline": "Questions, answered.",
+    "subtitle": "Clear answers to how we work alongside your team on industrial procurement requirements.",
+    "questions": [
+      {
+        "q": "What types of products can ALTEXIS source?",
+        "a": "We support industrial procurement requirements across equipment, components, materials and specialized products, depending on the technical and commercial requirements."
+      },
+      {
+        "q": "Do you work with international suppliers?",
+        "a": "Yes. International sourcing is a core part of our procurement approach."
+      },
+      {
+        "q": "How do you evaluate suppliers?",
+        "a": "We review relevant supplier information including identity, documentation, capabilities and other factors relevant to the procurement requirement."
+      },
+      {
+        "q": "Can you compare multiple quotations?",
+        "a": "Yes. We can organize supplier responses and help clients evaluate offers across price, specifications, lead time and commercial terms."
+      },
+      {
+        "q": "Can ALTEXIS support the procurement after supplier selection?",
+        "a": "Yes. Depending on the engagement, we can support supplier communication, coordination and procurement follow-up."
+      },
+      {
+        "q": "How do I start?",
+        "a": "Submit your procurement requirement and our team will review it with you."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Have a procurement requirement?",
+    "supportingText": "Tell us what you're looking for. We'll help you determine the right way forward.",
+    "primaryCta": "Submit a Procurement Request",
+    "secondaryCta": "Contact Our Team"
+  },
+  "contactForm": {
+    "headline": "Tell us what you need.",
+    "subtitle": "Share your specifications, bill of materials, or procurement requirement for review by our senior desk.",
+    "fields": {
+      "name": "Full Name",
+      "namePlaceholder": "e.g. David Vance",
+      "company": "Company",
+      "companyPlaceholder": "e.g. Atlas Industrial Energy",
+      "email": "Business Email",
+      "emailPlaceholder": "name@company.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+1 (555) 019-2834",
+      "product": "Product / Equipment",
+      "productPlaceholder": "e.g. API 6D Forged Steel Ball Valves",
+      "quantity": "Quantity",
+      "quantityPlaceholder": "e.g. 24 Units",
+      "destination": "Destination Port / City",
+      "destinationPlaceholder": "e.g. Port of Antwerp, Belgium",
+      "deliveryDate": "Required Delivery Date",
+      "specs": "Technical Requirements & Tolerances",
+      "specsPlaceholder": "Provide material grades, standard compliance (ASME/API), pressure class, testing criteria...",
+      "uploadLabel": "Upload Specifications / RFQ (Optional)",
+      "uploadHint": "Drag & drop specifications, MTR requirements, or drawings (PDF, XLSX, DWG)",
+      "message": "Additional Context or Message",
+      "messagePlaceholder": "Share timeline constraints, incoterms preferences, or project background...",
+      "submit": "Submit Request",
+      "submitting": "Submitting Request..."
+    },
+    "success": {
+      "title": "Thank you. Your request has been received.",
+      "body": "Our procurement desk will review your technical specifications and contact you within 24–48 hours with a preliminary sourcing assessment.",
+      "reference": "Reference ID",
+      "close": "Close"
+    }
+  }
+}

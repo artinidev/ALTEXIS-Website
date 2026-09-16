@@ -1,0 +1,51 @@
+{
+  "title": "Tell us what you need.",
+  "subtitle": "Submit your industrial procurement requirement. Our international desk will analyze specifications and begin supplier verification.",
+  "step1": "1. Technical Requirements",
+  "step2": "2. Logistics & Delivery",
+  "step3": "3. Scope of Desk Support",
+  "step4": "4. Contact Details",
+  "fields": {
+    "product": "Product / Equipment Name",
+    "productPlaceholder": "e.g., ANSI Class 600 Ball Valves 8-inch, API 6D",
+    "quantity": "Quantity & Units",
+    "quantityPlaceholder": "e.g., 24 Units / 500 Meters / 2 Sets",
+    "specs": "Technical Specifications & Standards",
+    "specsPlaceholder": "Material grade (e.g. Inconel 625, Carbon Steel A105), pressure rating, ASME/DIN/ISO standards, certifications required...",
+    "deliveryDate": "Required Delivery Date",
+    "destination": "Delivery Destination / Port / Facility",
+    "destinationPlaceholder": "e.g., Port of Antwerp / Lagos Onne Port / Houston Yard",
+    "project": "Project / Application Context",
+    "projectPlaceholder": "e.g., Offshore FPSO Refit / Refinery Pipeline Maintenance Package 3",
+    "uploadLabel": "Upload RFQ, Datasheets or Drawings (PDF, DWG, XLSX)",
+    "uploadHint": "Drag & drop files or click to browse (Max 50MB)",
+    "fileSelected": "File attached:",
+    "supportLabel": "What support do you need from our desk?",
+    "supportOptions": {
+      "sourcing": "Supplier Sourcing & Manufacturer Search",
+      "verification": "Supplier Verification & Facility Audit",
+      "rfq": "RFQ Management & Standardized Bidding",
+      "comparison": "Quote Comparison & Landed Cost Analysis",
+      "followup": "Procurement Follow-Up, PO & Shipment Support"
+    },
+    "fullName": "Your Name & Title",
+    "fullNamePlaceholder": "e.g., David Thorne, Lead Procurement Engineer",
+    "company": "Company / Organization",
+    "companyPlaceholder": "e.g., Apex Energy Solutions",
+    "email": "Business Email",
+    "emailPlaceholder": "e.g., d.thorne@apex-energy.com",
+    "phone": "Phone / WhatsApp",
+    "phonePlaceholder": "e.g., +1 (713) 555-0198"
+  },
+  "submitBtn": "Submit Procurement Request",
+  "submitting": "Processing Request & Generating Desk ID...",
+  "success": {
+    "title": "Request Received.",
+    "subtitle": "Our procurement engineering team is reviewing your requirements.",
+    "refLabel": "Request Reference:",
+    "timelineNotice": "A dedicated Procurement Specialist will review your technical specifications within 4 business hours.",
+    "summaryTitle": "Requirement Summary:",
+    "ctaClose": "Close & Return to Portal",
+    "ctaTrack": "Track Request Progress"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "tag": "NOTRE IDENTITÉ",
+  "headline": "L'expertise en achats industriels avec une perspective mondiale.",
+  "statement": "Les entreprises industrielles ne devraient pas affronter seules la complexité du sourcing international.",
+  "body1": "ALTEXIS a été créé avec une mission claire : agir en tant que bureau d'achats indépendant et dédié exclusivement aux acheteurs industriels qui s'approvisionnent sur les marchés mondiaux.",
+  "body2": "Nous ne représentons aucun fournisseur et ne fonctionnons pas comme une place de marché passive. Notre équipe opère comme un prolongement naturel de vos services achats, pour identifier des fabricants audités, valider leur solvabilité, négocier les meilleures offres et sécuriser vos commandes jusqu'à la livraison.",
+  "conclusion": "Notre rôle n'est pas de décider à votre place. C'est de vous apporter les meilleures données vérifiées et la maîtrise opérationnelle pour décider avec certitude.",
+  "approach": {
+    "tag": "PHILOSOPHIE D'ACTION",
+    "headline": "Indépendant. Structuré. Centré sur l'acheteur.",
+    "subtitle": "Quatre principes directeurs appliqués à chacun de nos dossiers de sourcing.",
+    "pillars": [
+      {
+        "title": "Priorité Acheteur",
+        "desc": "Nous défendons exclusivement vos intérêts. Zéro commission fournisseur cachée, zéro exclusivité artificielle."
+      },
+      {
+        "title": "Fondé sur les Preuves",
+        "desc": "Nous nous appuyons sur des audits d'usines documentés, des bilans vérifiés et des fiches techniques validées."
+      },
+      {
+        "title": "Transparence Totale",
+        "desc": "Vous visualisez chaque ligne de devis, les offres directes des fabricants, les Incoterms et les analyses de risque."
+      },
+      {
+        "title": "Pragmatisme & Rigueur",
+        "desc": "Notre objectif est concret : livrer le matériel conforme, certifié, dans les délais impartis sur votre chantier."
+      }
+    ]
+  },
+  "stats": [
+    { "value": "+140M $", "label": "Volume Industriel Sourcé" },
+    { "value": "+48", "label": "Pays dans nos Corridors de Sourcing" },
+    { "value": "99,4%", "label": "Fiabilité des Fournisseurs Vérifiés" },
+    { "value": "18 Jours", "label": "Gain Moyen sur les Délais" }
+  ]
+}

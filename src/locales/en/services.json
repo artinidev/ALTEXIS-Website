@@ -1,0 +1,77 @@
+{
+  "tag": "BUYER-SIDE CAPABILITIES",
+  "headline": "One procurement partner. Every critical step.",
+  "subtitle": "Comprehensive buyer-side services tailored to industrial supply chains.",
+  "items": [
+    {
+      "id": "sourcing",
+      "number": "01",
+      "title": "Supplier Sourcing",
+      "tagline": "Find the right suppliers for your technical and commercial requirements.",
+      "desc": "We identify manufacturers, distributors, and specialized suppliers worldwide capable of fulfilling your technical tolerances and delivery milestones.",
+      "points": [
+        "Global manufacturer identification",
+        "Direct tier-1 factory matching",
+        "Material & spec compliance screening",
+        "Alternative sourcing routes for hard-to-find items"
+      ],
+      "cta": "Explore Supplier Sourcing"
+    },
+    {
+      "id": "verification",
+      "number": "02",
+      "title": "Supplier Verification",
+      "tagline": "Reduce uncertainty before doing business.",
+      "desc": "We assess supplier legal registration, banking verification, production certifications, historical export performance, and commercial risk factors.",
+      "points": [
+        "Entity & business license authentication",
+        "Factory capacity & equipment audit",
+        "Export documentation & compliance history",
+        "Financial solvency & credit risk checks"
+      ],
+      "cta": "Explore Verification"
+    },
+    {
+      "id": "rfq",
+      "number": "03",
+      "title": "RFQ Management",
+      "tagline": "Turn your requirements into actionable requests.",
+      "desc": "We help structure, translate, and communicate your technical RFQs to qualified international suppliers and coordinate responsive bidding.",
+      "points": [
+        "Technical specification structuring",
+        "Standardized multi-vendor RFQ dispatch",
+        "Bidding timeline and deadline management",
+        "Technical question and answer facilitation"
+      ],
+      "cta": "Explore RFQ Management"
+    },
+    {
+      "id": "comparison",
+      "number": "04",
+      "title": "Quote Comparison",
+      "tagline": "Don't choose based on price alone.",
+      "desc": "We organize and compare supplier quotations across landed price, lead time, Incoterms, payment conditions, warranty, and risk scoring.",
+      "points": [
+        "Normalized side-by-side bid matrices",
+        "Landed cost and shipping estimate modeling",
+        "Lead-time vs. expediting feasibility analysis",
+        "Commercial terms and risk balance scoring"
+      ],
+      "cta": "Compare With Confidence"
+    },
+    {
+      "id": "support",
+      "number": "05",
+      "title": "Procurement Support",
+      "tagline": "Keep your purchase moving.",
+      "desc": "We support purchase order execution, manufacturer communication, milestone tracking, pre-shipment inspections, and logistics coordination.",
+      "points": [
+        "PO follow-up and production milestones",
+        "Quality check & factory test oversight",
+        "Shipping documentation verification (BL, COO, COC)",
+        "Delivery tracking and buyer status reporting"
+      ],
+      "cta": "Discover Procurement Support"
+    }
+  ]
+}

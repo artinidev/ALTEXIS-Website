@@ -1,0 +1,51 @@
+{
+  "title": "Exprimez votre besoin d'approvisionnement.",
+  "subtitle": "Soumettez votre demande d'achat industriel. Notre bureau international analysera vos spécifications et engagera les vérifications usines.",
+  "step1": "1. Spécifications Techniques",
+  "step2": "2. Logistique & Délais",
+  "step3": "3. Périmètre d'Accompagnement",
+  "step4": "4. Vos Coordonnées",
+  "fields": {
+    "product": "Nom de l'Équipement / Produit",
+    "productPlaceholder": "Ex : Vannes à boisseau sphérique 8 pouces ANSI Class 600, API 6D",
+    "quantity": "Quantité & Unités",
+    "quantityPlaceholder": "Ex : 24 Unités / 500 Mètres / 2 Ensembles",
+    "specs": "Spécifications Techniques & Normes",
+    "specsPlaceholder": "Nuance de matière (ex. Inconel 625, Acier A105), classe de pression, normes ASME/DIN/ISO, certificats requis...",
+    "deliveryDate": "Date Limite de Livraison Souhaitée",
+    "destination": "Destination / Port / Site Récepteur",
+    "destinationPlaceholder": "Ex : Port d'Anvers / Terminal Portuaire de Lagos / Site Fos-sur-Mer",
+    "project": "Contexte du Projet / Application",
+    "projectPlaceholder": "Ex : Rétrofit Unité Offshore / Maintenance Raffinerie Lot 3",
+    "uploadLabel": "Joindre Cahier des Charges, Plans ou Fiches Techniques (PDF, DWG, XLSX)",
+    "uploadHint": "Glissez-déposez vos fichiers ou cliquez pour parcourir (Max 50 Mo)",
+    "fileSelected": "Document joint :",
+    "supportLabel": "De quel type d'accompagnement avez-vous besoin ?",
+    "supportOptions": {
+      "sourcing": "Sourcing Fournisseurs & Recherche d'Usines",
+      "verification": "Vérification Fournisseur & Audit d'Usine",
+      "rfq": "Gestion d'Appels d'Offres & Standardisation",
+      "comparison": "Comparaison de Devis & Calcul du Coût Rendu",
+      "followup": "Suivi des Commandes, Production & Expédition"
+    },
+    "fullName": "Nom & Fonction",
+    "fullNamePlaceholder": "Ex : Marc Lefèvre, Responsable Achats Projets",
+    "company": "Entreprise / Organisation",
+    "companyPlaceholder": "Ex : Apex Solutions Industrielles",
+    "email": "Adresse Email Professionnelle",
+    "emailPlaceholder": "Ex : m.lefevre@apex-industries.com",
+    "phone": "Téléphone / WhatsApp",
+    "phonePlaceholder": "Ex : +33 1 42 68 00 00"
+  },
+  "submitBtn": "Transmettre la Demande d'Achats",
+  "submitting": "Génération de votre Référence Bureau...",
+  "success": {
+    "title": "Demande Enregistrée avec Succès.",
+    "subtitle": "Notre équipe d'ingénieurs achats étudie actuellement vos exigences techniques.",
+    "refLabel": "Référence du Dossier :",
+    "timelineNotice": "Un Spécialiste Achats dédié analysera vos spécifications dans un délai de 4 heures ouvrées.",
+    "summaryTitle": "Récapitulatif de la Demande :",
+    "ctaClose": "Fermer & Revenir au Portail",
+    "ctaTrack": "Suivre l'Avancement du Dossier"
+  }
+}

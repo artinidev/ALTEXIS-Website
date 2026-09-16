@@ -1,0 +1,39 @@
+{
+  "brand": "ALTEXIS",
+  "tagline": "Global procurement. Trusted sourcing. Better decisions.",
+  "brandPromise": "Your buyer-side procurement and sourcing partner. Connecting industrial enterprises with vetted global manufacturers with complete clarity and fiduciary alignment.",
+  "nav": {
+    "home": "Home",
+    "offers": "Company setup",
+    "about": "About us",
+    "services": "Services",
+    "industries": "Industries",
+    "approach": "How We Help",
+    "insights": "Gallery",
+    "faq": "FAQ",
+    "contact": "Contact us",
+    "submitRequest": "Submit a Request"
+  },
+  "cta": {
+    "submitRequest": "Submit a Procurement Request",
+    "exploreServices": "Explore Our Services",
+    "contactTeam": "Contact Our Team",
+    "discussRequirement": "Discuss Your Requirement",
+    "learnMore": "Learn More About Us",
+    "readArticle": "Read Article",
+    "submitInquiry": "Submit Request"
+  },
+  "status": {
+    "verified": "Verified",
+    "audited": "Audited",
+    "active": "Active",
+    "reviewRequired": "Review Required"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Engagement",
+    "iso": "ISO 9001 Alignment",
+    "locations": "USA • Algeria • Dubai • Singapore"
+  }
+}

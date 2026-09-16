@@ -1,0 +1,77 @@
+{
+  "tag": "SERVICES CÔTÉ ACHETEUR",
+  "headline": "Un partenaire d'achats unique. Chaque étape maîtrisée.",
+  "subtitle": "Une gamme de services professionnels conçue sur mesure pour les besoins industriels.",
+  "items": [
+    {
+      "id": "sourcing",
+      "number": "01",
+      "title": "Sourcing Fournisseurs",
+      "tagline": "Identifiez les fabricants adaptés à vos impératifs techniques et commerciaux.",
+      "desc": "Nous identifions les usines, distributeurs officiels et fabricants spécialisés à travers le monde capables de respecter vos tolérances techniques et vos calendriers.",
+      "points": [
+        "Identification de fabricants internationaux de rang 1",
+        "Mise en relation directe avec les usines mères",
+        "Conformité aux normes et spécifications techniques",
+        "Solutions alternatives pour composants critiques et rares"
+      ],
+      "cta": "Explorer le Sourcing Fournisseurs"
+    },
+    {
+      "id": "verification",
+      "number": "02",
+      "title": "Vérification Fournisseur",
+      "tagline": "Éliminez les risques avant d'engager vos capitaux.",
+      "desc": "Nous auditons l'enregistrement légal, la solidité financière, les certifications d'usine, l'historique export et les signaux de risque.",
+      "points": [
+        "Authentification juridique et registre de commerce",
+        "Audit des capacités d'usine et du parc machine",
+        "Conformité documentaire export et traçabilité",
+        "Contrôle de solvabilité financière et de réputation"
+      ],
+      "cta": "Découvrir la Vérification"
+    },
+    {
+      "id": "rfq",
+      "number": "03",
+      "title": "Gestion des Appels d'Offres (RFQ)",
+      "tagline": "Transformez vos spécifications en consultations efficaces.",
+      "desc": "Nous structurons vos cahiers des charges, lançons des appels d'offres normalisés auprès des fabricants et coordonnons les réponses.",
+      "points": [
+        "Structuration rigoureuse du cahier des charges",
+        "Diffusion normalisée auprès des fournisseurs ciblés",
+        "Gestion stricte des délais de soumission",
+        "Coordination des clarifications techniques"
+      ],
+      "cta": "Explorer la Gestion RFQ"
+    },
+    {
+      "id": "comparison",
+      "number": "04",
+      "title": "Comparaison des Devis",
+      "tagline": "Ne décidez plus uniquement sur le prix facial.",
+      "desc": "Nous analysons et comparons les offres sur le coût rendu (Landed Cost), les délais, les Incoterms, les conditions de paiement et les garanties.",
+      "points": [
+        "Matrices de comparaison normalisées côte à côte",
+        "Modélisation des coûts de transport et douane",
+        "Évaluation de la fiabilité des délais d'expédition",
+        "Pondération des risques commerciaux et contractuels"
+      ],
+      "cta": "Comparer avec Sérénité"
+    },
+    {
+      "id": "support",
+      "number": "05",
+      "title": "Support Opérationnel aux Achats",
+      "tagline": "Sécurisez vos commandes jusqu'à destination.",
+      "desc": "Nous gérons les échanges avec les usines, le suivi des jalons de fabrication, les inspections avant expédition et la coordination logistique.",
+      "points": [
+        "Suivi des bons de commande et des étapes de fabrication",
+        "Contrôle qualité et supervision des tests usine (FAT)",
+        "Validation de la documentation d'expédition (BL, COO, COC)",
+        "Rapports d'avancement réguliers pour l'acheteur"
+      ],
+      "cta": "Découvrir le Support Opérationnel"
+    }
+  ]
+}
