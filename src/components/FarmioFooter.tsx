@@ -152,7 +152,7 @@ export const FarmioFooter: React.FC<FarmioFooterProps> = ({ onOpenContactModal }
               <div className="flex items-center gap-2">
                 <WhatsAppIcon className="w-3.5 h-3.5 text-[#25D366] shrink-0" />
                 <a
-                  href={`https://wa.me/213670132353?text=${encodeURIComponent(
+                  href={`https://wa.me/213560189825?text=${encodeURIComponent(
                     i18n.language === 'ar'
                       ? 'مرحباً ألتيكسيس، أود الاستفسار عن خدماتكم.'
                       : i18n.language === 'en'
@@ -163,13 +163,13 @@ export const FarmioFooter: React.FC<FarmioFooterProps> = ({ onOpenContactModal }
                   rel="noopener noreferrer"
                   className="text-[#25D366] font-bold hover:underline transition-colors inline-flex items-center gap-1"
                 >
-                  <span>WhatsApp Direct Desk</span>
+                  <span>WhatsApp Direct Desk (0560 18 98 25)</span>
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-[#8EDB68] shrink-0" />
-                <a href="tel:+213670132353" className="text-white font-bold hover:text-[#8EDB68] transition-colors">
-                  +213 670 13 23 53
+                <a href="https://wa.me/213560189825" target="_blank" rel="noopener noreferrer" className="text-white font-bold hover:text-[#8EDB68] transition-colors">
+                  0560 18 98 25
                 </a>
               </div>
               <div className="flex items-center gap-2">

@@ -33,7 +33,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   const navLinks = [
     { href: '/', label: t('nav.home', { ns: 'common' }), isRoute: true },
-    { href: '/our-offers', label: t('nav.offers', { ns: 'common' }) || 'Company setup', isRoute: true, highlight: true },
+    { href: '/our-offers', label: t('nav.offers', { ns: 'common' }) || 'Company setup', isRoute: true },
     { href: '#about', label: t('nav.about', { ns: 'common' }), isRoute: false },
     { href: '#services', label: t('nav.services', { ns: 'common' }), isRoute: false },
     { href: '#insights', label: t('nav.insights', { ns: 'common' }), isRoute: false },
@@ -103,7 +103,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleNavClick(link, e)}
-                className={`relative py-1 transition-colors duration-200 ${
+                className={`relative py-1 whitespace-nowrap transition-colors duration-200 ${
                   isOfferActive
                     ? isLightNav
                       ? 'text-[#04846E] font-bold'
@@ -121,11 +121,6 @@ export const Navbar: React.FC<NavbarProps> = ({
                       isLightNav ? 'bg-[#04846E]' : 'bg-[#8EDB68]'
                     }`}
                   />
-                )}
-                {link.highlight && !isOfferActive && (
-                  <span className="ml-1.5 px-2 py-0.5 text-[10px] font-heading font-semibold bg-[#04846E]/20 text-[#8EDB68] rounded-full">
-                    Nouveau
-                  </span>
                 )}
               </a>
             );
@@ -191,11 +186,6 @@ export const Navbar: React.FC<NavbarProps> = ({
                       }`}
                     >
                       <span>{link.label}</span>
-                      {link.highlight && (
-                        <span className="px-2 py-0.5 text-[10px] font-mono font-bold bg-[#04846E] text-white rounded-full uppercase">
-                          New
-                        </span>
-                      )}
                     </a>
                   );
                 })}

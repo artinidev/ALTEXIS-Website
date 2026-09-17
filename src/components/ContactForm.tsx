@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { UploadCloud, CheckCircle2, ArrowRight, ShieldCheck, Copy, Check, FileText, Mail, Phone, MapPin, Globe } from 'lucide-react';
+import { UploadCloud, CheckCircle2, ArrowRight, ShieldCheck, Copy, Check, FileText, Mail, MapPin, Globe } from 'lucide-react';
 import { MotionReveal } from './MotionReveal';
 import { WhatsAppIcon } from './WhatsAppFloatingButton';
 
@@ -59,7 +59,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
         email: 'Business Email',
         emailPlaceholder: 'm.vance@apexenergy.com',
         phone: 'Phone Number',
-        phonePlaceholder: '+213 670 13 23 53',
+        phonePlaceholder: '0560 18 98 25',
         product: 'Product / Category',
         productPlaceholder: 'e.g. Forged Flanges & High-Pressure Valves',
         quantity: 'Target Quantity',
@@ -105,7 +105,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
         email: 'Email Professionnel',
         emailPlaceholder: 'jm.laurent@groupe-industrie.com',
         phone: 'Numéro de Téléphone',
-        phonePlaceholder: '+213 670 13 23 53',
+        phonePlaceholder: '0560 18 98 25',
         product: 'Produit / Équipement',
         productPlaceholder: 'ex. Brides forgées & Vannes haute pression',
         quantity: 'Quantité Requise',
@@ -151,7 +151,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
         email: 'البريد الإلكتروني المهني',
         emailPlaceholder: 'a.benali@company.com',
         phone: 'رقم الهاتف',
-        phonePlaceholder: '+213 670 13 23 53',
+        phonePlaceholder: '0560 18 98 25',
         product: 'المنتج / فئة التوريد',
         productPlaceholder: 'مثال: صمامات الضغط العالي والفلنجات المطروقة',
         quantity: 'الكمية المطلوبة',
@@ -317,17 +317,19 @@ export const ContactForm: React.FC<ContactFormProps> = ({
                 </a>
 
                 <a
-                  href="tel:+213670132353"
-                  className="p-3.5 rounded-2xl bg-white border border-[#E2DFD5] flex items-center gap-3 hover:border-[#123C32] hover:shadow-sm transition-all text-start"
+                  href="https://wa.me/213560189825"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3.5 rounded-2xl bg-white border border-[#E2DFD5] flex items-center gap-3 hover:border-[#25D366] hover:shadow-sm transition-all text-start group"
                 >
-                  <div className="w-9 h-9 rounded-xl bg-[#8EDB68]/20 flex items-center justify-center text-[#123C32] shrink-0">
-                    <Phone className="w-4 h-4" />
+                  <div className="w-9 h-9 rounded-xl bg-[#25D366]/15 flex items-center justify-center text-[#25D366] shrink-0 group-hover:bg-[#25D366] group-hover:text-white transition-colors">
+                    <WhatsAppIcon className="w-4 h-4" />
                   </div>
                   <div>
                     <span className="text-[10px] font-heading font-bold text-[#5E6D68] uppercase tracking-wider block">
-                      {current.cards.phone}
+                      {current.cards.phone} (WhatsApp)
                     </span>
-                    <span className="text-xs font-semibold text-[#123C32] block" dir="ltr">+213 670 13 23 53</span>
+                    <span className="text-xs font-semibold text-[#123C32] block" dir="ltr">0560 18 98 25</span>
                   </div>
                 </a>
 
@@ -525,7 +527,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
                       formData.message ? `• *Spécifications* : ${formData.message}` : '',
                     ].filter(Boolean);
                     const text = encodeURIComponent(lines.length > 1 ? lines.join('\n') : 'Bonjour ALTEXIS, je souhaite soumettre une demande de sourcing industriel.');
-                    window.open(`https://wa.me/213670132353?text=${text}`, '_blank', 'noopener,noreferrer');
+                    window.open(`https://wa.me/213560189825?text=${text}`, '_blank', 'noopener,noreferrer');
                   }}
                   className="py-3 px-5 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-heading text-xs font-bold uppercase tracking-wider inline-flex items-center justify-center gap-2 active:scale-[0.98] shadow-sm cursor-pointer shrink-0"
                 >

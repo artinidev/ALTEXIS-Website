@@ -25,10 +25,10 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContactModal }) => {
   ];
 
   const globalDesks = [
-    { city: 'USA', area: 'Houston / NY Desk', code: 'EST/CST', tel: '0670132353' },
-    { city: 'Algeria', area: 'Residence El Ferdous, Alger', code: 'CET', tel: '0670132353' },
-    { city: 'Dubai', area: 'DIFC Precinct 4', code: 'GST', tel: '0670132353' },
-    { city: 'Singapore', area: 'Marina Bay Tower', code: 'SGT', tel: '0670132353' },
+    { city: 'USA', area: 'Houston / NY Desk', code: 'EST/CST', tel: '0560189825' },
+    { city: 'Algeria', area: 'Residence El Ferdous, Alger', code: 'CET', tel: '0560189825' },
+    { city: 'Dubai', area: 'DIFC Precinct 4', code: 'GST', tel: '0560189825' },
+    { city: 'Singapore', area: 'Marina Bay Tower', code: 'SGT', tel: '0560189825' },
   ];
 
   return (
@@ -159,7 +159,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContactModal }) => {
             <div className="pt-2 space-y-2 text-xs font-mono">
               <div className="flex items-center gap-2 text-[#A3C2BD]">
                 <Phone className="w-3.5 h-3.5 text-[#00D991]" />
-                <a href="tel:+213670132353" className="text-white font-medium hover:text-[#00D991] transition-colors">+213 670 13 23 53</a>
+                <a href="https://wa.me/213560189825" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#00D991] transition-colors">0560 18 98 25</a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-[#00D991]" />

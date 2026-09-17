@@ -275,6 +275,27 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
     };
   }, [isDropdownOpen]);
 
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+
+    if (isOpen) {
+      document.body.classList.add('modal-open');
+      document.body.style.overflow = 'hidden';
+      window.addEventListener('keydown', handleKeyDown);
+    } else {
+      document.body.classList.remove('modal-open');
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.classList.remove('modal-open');
+      document.body.style.overflow = '';
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isOpen, onClose]);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -354,7 +375,7 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
     }
 
     const text = encodeURIComponent(lines.filter(Boolean).join('\n'));
-    window.open(`https://wa.me/213670132353?text=${text}`, '_blank', 'noopener,noreferrer');
+    window.open(`https://wa.me/213560189825?text=${text}`, '_blank', 'noopener,noreferrer');
   };
 
   // Group items by categoryKey for the custom popover
@@ -370,25 +391,30 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
     <AnimatePresence>
       {isOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 overflow-y-auto bg-black/80 backdrop-blur-md"
+          data-lenis-prevent="true"
+          role="dialog"
+          aria-modal="true"
+          className="fixed inset-0 z-50 overflow-y-auto bg-black/65 backdrop-blur-md [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden cursor-pointer"
           onClick={onClose}
         >
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95, y: 15 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.95, y: 15 }}
-            transition={{ duration: 0.22, ease: [0.16, 1, 0.3, 1] }}
-            className={`relative w-full max-w-3xl rounded-[2.25rem] bg-[#FAF9F5] border border-[#E2DFD5] shadow-2xl p-6 sm:p-9 my-4 max-h-[92vh] overflow-y-auto text-start ${isRtl ? 'rtl' : 'ltr'}`}
-            onClick={(e) => e.stopPropagation()}
-          >
+          <div className="min-h-full flex items-center justify-center p-3 sm:p-6 py-8 sm:py-12 pointer-events-none">
+            <motion.div
+              data-lenis-prevent="true"
+              initial={{ opacity: 0, scale: 0.95, y: 15 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.95, y: 15 }}
+              transition={{ duration: 0.22, ease: [0.16, 1, 0.3, 1] }}
+              className={`relative w-full max-w-3xl rounded-[2.25rem] bg-[#FAF9F5] border border-[#E2DFD5] shadow-2xl p-6 sm:p-9 text-start pointer-events-auto font-sans cursor-default ${isRtl ? 'rtl' : 'ltr'}`}
+              onClick={(e) => e.stopPropagation()}
+            >
             {/* Modal Header */}
             <div className="flex items-start justify-between pb-5 mb-6 border-b border-[#E2DFD5]">
               <div className="space-y-1">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#04846E]/10 text-xs font-heading font-bold text-[#04846E]">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#04846E]/10 text-xs font-heading font-semibold text-[#04846E]">
                   <Sparkles className="w-3.5 h-3.5" />
                   <span>{t('modal.badge', { ns: 'offers' })}</span>
                 </div>
-                <h2 className="font-heading text-2xl sm:text-3xl font-extrabold text-[#123C32] tracking-tight">
+                <h2 className="font-heading text-2xl sm:text-3xl font-semibold text-[#123C32] tracking-tight">
                   {t('modal.title', { ns: 'offers' })}
                 </h2>
                 <p className="text-xs sm:text-sm text-[#5E6D68]">
@@ -413,7 +439,7 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                 </div>
 
                 <div className="space-y-2 max-w-md mx-auto">
-                  <h3 className="font-heading text-2xl font-bold text-[#123C32]">
+                  <h3 className="font-heading text-2xl font-semibold text-[#123C32]">
                     {t('modal.successTitle', { ns: 'offers' })}
                   </h3>
                   <p className="text-sm text-[#5E6D68] leading-relaxed">
@@ -427,7 +453,7 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                     {t('modal.refLabel', { ns: 'offers' })}
                   </span>
                   <div className="flex items-center justify-center gap-3">
-                    <span className="font-heading text-xl font-extrabold text-[#04846E]">
+                    <span className="font-heading text-xl font-semibold text-[#04846E]">
                       {submittedRef}
                     </span>
                     <button
@@ -459,9 +485,9 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                         followMsg = `👋 Hello ALTEXIS, here is my reference ID: *${submittedRef}* for the plan *${currentTitle}*.`;
                       }
                       const text = encodeURIComponent(followMsg);
-                      window.open(`https://wa.me/213670132353?text=${text}`, '_blank', 'noopener,noreferrer');
+                      window.open(`https://wa.me/213560189825?text=${text}`, '_blank', 'noopener,noreferrer');
                     }}
-                    className="py-3.5 px-6 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-poppins text-xs font-bold uppercase tracking-wider inline-flex items-center gap-2 shadow-md cursor-pointer transition-all active:scale-[0.98]"
+                    className="py-3.5 px-6 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-heading text-xs font-semibold uppercase tracking-wider inline-flex items-center gap-2 shadow-md cursor-pointer transition-all active:scale-[0.98]"
                   >
                     <WhatsAppIcon className="w-4 h-4" />
                     <span>{t('modal.followWa', { ns: 'offers' })}</span>
@@ -469,17 +495,19 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
 
                   <button
                     onClick={handleReset}
-                    className="farmio-btn-accent px-7 py-3.5 text-xs font-poppins font-bold uppercase tracking-wider cursor-pointer shadow-md"
+                    className="farmio-btn-accent px-7 py-3.5 text-xs font-heading font-semibold uppercase tracking-wider cursor-pointer shadow-md"
                   >
                     {t('modal.close', { ns: 'offers' })}
                   </button>
 
                   <a
-                    href="tel:+213670132353"
-                    className="farmio-btn-outline px-5 py-3.5 text-xs font-heading font-bold uppercase tracking-wider inline-flex items-center gap-2 cursor-pointer"
+                    href="https://wa.me/213560189825"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="farmio-btn-outline px-5 py-3.5 text-xs font-heading font-semibold uppercase tracking-wider inline-flex items-center gap-2 cursor-pointer"
                   >
                     <Phone className="w-4 h-4" />
-                    <span>{t('modal.directCall', { ns: 'offers' })}</span>
+                    <span>{t('modal.directCall', { ns: 'offers' })} (0560 18 98 25)</span>
                   </a>
                 </div>
               </div>
@@ -489,9 +517,9 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                 
                 {/* 1. Custom Designed Service Selector Dropdown */}
                 <div className="space-y-2" ref={dropdownRef}>
-                  <label className="block text-xs font-heading font-bold uppercase tracking-wider text-[#123C32] flex items-center justify-between">
+                  <label className="block text-xs font-heading font-semibold uppercase tracking-wider text-[#123C32] flex items-center justify-between">
                     <span>{t('modal.serviceLabel', { ns: 'offers' })} <span className="text-red-500">*</span></span>
-                    <span className="text-[11px] font-poppins font-normal text-[#5E6D68]">
+                    <span className="text-[11px] font-sans font-normal text-[#5E6D68]">
                       {currentCategory}
                     </span>
                   </label>
@@ -514,16 +542,16 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
 
                         <div className="flex flex-col min-w-0">
                           <div className="flex items-center gap-2">
-                            <span className="font-heading text-sm font-bold text-[#123C32] truncate">
+                            <span className="font-heading text-sm font-semibold text-[#123C32] truncate">
                               {currentTitle}
                             </span>
                             {selectedItem.popular && (
-                              <span className="px-2 py-0.5 rounded-full bg-[#8EDB68]/25 text-[#123C32] font-heading text-[10px] font-extrabold uppercase tracking-wide">
+                              <span className="px-2 py-0.5 rounded-full bg-[#8EDB68]/25 text-[#123C32] font-heading text-[10px] font-semibold uppercase tracking-wide">
                                 {t('sections.s1.business.badge', { ns: 'offers' })}
                               </span>
                             )}
                           </div>
-                          <span className="text-xs font-poppins text-[#5E6D68] truncate">
+                          <span className="text-xs font-sans text-[#5E6D68] truncate">
                             {currentCategory} • <strong className="text-[#04846E]">{currentPrice}</strong> {currentPeriod}
                           </span>
                         </div>
@@ -599,17 +627,17 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
 
                                           <div className="flex flex-col min-w-0">
                                             <div className="flex items-center gap-2">
-                                              <span className="font-heading text-xs sm:text-sm font-bold truncate">
+                                              <span className="font-heading text-xs sm:text-sm font-semibold truncate">
                                                 {itemTitle}
                                               </span>
                                               {item.popular && (
-                                                <span className="px-2 py-0.2 rounded-full bg-[#8EDB68] text-[#123C32] text-[9px] font-heading font-extrabold uppercase">
+                                                <span className="px-2 py-0.5 rounded-full bg-[#8EDB68] text-[#123C32] text-[9px] font-semibold uppercase tracking-wider">
                                                   {t('sections.s1.business.badge', { ns: 'offers' })}
                                                 </span>
                                               )}
                                             </div>
                                             {itemBadge && (
-                                              <span className="text-[11px] font-poppins text-[#5E6D68]">
+                                              <span className="text-[11px] font-sans text-[#5E6D68]">
                                                 {itemBadge}
                                               </span>
                                             )}
@@ -617,7 +645,7 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                                         </div>
 
                                         <div className="flex items-center gap-2.5 shrink-0">
-                                          <span className="text-xs font-heading font-extrabold text-[#04846E]">
+                                          <span className="text-xs font-heading font-semibold text-[#04846E]">
                                             {itemPrice} <span className="text-[10px] text-[#5E6D68] font-normal">{itemPeriod}</span>
                                           </span>
                                           {isSelected && (
@@ -642,7 +670,7 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                 {/* 2. Personal & Company Info (2-column Grid) */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div className="space-y-1.5">
-                    <label className="block text-xs font-poppins font-bold text-[#123C32]">
+                    <label className="block text-xs font-medium text-[#123C32]">
                       {t('modal.name', { ns: 'offers' })} <span className="text-red-500">*</span>
                     </label>
                     <input
@@ -651,12 +679,12 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                       value={fullName}
                       onChange={(e) => setFullName(e.target.value)}
                       placeholder={t('modal.namePh', { ns: 'offers' })}
-                      className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-poppins text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all placeholder:text-[#5E6D68]/50"
+                      className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-sans text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all placeholder:text-[#5E6D68]/50"
                     />
                   </div>
 
                   <div className="space-y-1.5">
-                    <label className="block text-xs font-poppins font-bold text-[#123C32]">
+                    <label className="block text-xs font-medium text-[#123C32]">
                       {t('modal.company', { ns: 'offers' })} <span className="text-red-500">*</span>
                     </label>
                     <input
@@ -665,12 +693,12 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                       value={companyName}
                       onChange={(e) => setCompanyName(e.target.value)}
                       placeholder={t('modal.companyPh', { ns: 'offers' })}
-                      className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-poppins text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all placeholder:text-[#5E6D68]/50"
+                      className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-sans text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all placeholder:text-[#5E6D68]/50"
                     />
                   </div>
 
                   <div className="space-y-1.5">
-                    <label className="block text-xs font-poppins font-bold text-[#123C32]">
+                    <label className="block text-xs font-medium text-[#123C32]">
                       {t('modal.email', { ns: 'offers' })} <span className="text-red-500">*</span>
                     </label>
                     <input
@@ -679,12 +707,12 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder={t('modal.emailPh', { ns: 'offers' })}
-                      className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-poppins text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all placeholder:text-[#5E6D68]/50"
+                      className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-sans text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all placeholder:text-[#5E6D68]/50"
                     />
                   </div>
 
                   <div className="space-y-1.5">
-                    <label className="block text-xs font-poppins font-bold text-[#123C32]">
+                    <label className="block text-xs font-medium text-[#123C32]">
                       {t('modal.phone', { ns: 'offers' })} <span className="text-red-500">*</span>
                     </label>
                     <input
@@ -693,7 +721,7 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
                       placeholder={t('modal.phonePh', { ns: 'offers' })}
-                      className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-poppins text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all placeholder:text-[#5E6D68]/50"
+                      className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-sans text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all placeholder:text-[#5E6D68]/50"
                     />
                   </div>
                 </div>
@@ -701,7 +729,7 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                 {/* 3. Operational Details: Desired Start Date & Team Size */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-1">
                   <div className="space-y-1.5">
-                    <label className="block text-xs font-poppins font-bold text-[#123C32] flex items-center gap-1.5">
+                    <label className="block text-xs font-medium text-[#123C32] flex items-center gap-1.5">
                       <Calendar className="w-3.5 h-3.5 text-[#04846E]" />
                       <span>{t('modal.startDate', { ns: 'offers' })}</span>
                     </label>
@@ -710,19 +738,19 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                       value={startDate}
                       onChange={(e) => setStartDate(e.target.value)}
                       placeholder={t('modal.startDatePh', { ns: 'offers' })}
-                      className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-poppins text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all placeholder:text-[#5E6D68]/50"
+                      className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-sans text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all placeholder:text-[#5E6D68]/50"
                     />
                   </div>
 
                   <div className="space-y-1.5">
-                    <label className="block text-xs font-poppins font-bold text-[#123C32] flex items-center gap-1.5">
+                    <label className="block text-xs font-medium text-[#123C32] flex items-center gap-1.5">
                       <Users className="w-3.5 h-3.5 text-[#04846E]" />
                       <span>{t('modal.teamSize', { ns: 'offers' })}</span>
                     </label>
                     <select
                       value={teamSize}
                       onChange={(e) => setTeamSize(e.target.value)}
-                      className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-poppins text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all cursor-pointer"
+                      className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-sans text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all cursor-pointer"
                     >
                       <option value="1">{t('modal.team1', { ns: 'offers' })}</option>
                       <option value="2-4">{t('modal.team2', { ns: 'offers' })}</option>
@@ -734,7 +762,7 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
 
                 {/* 4. Notes / Specifications */}
                 <div className="space-y-1.5">
-                  <label className="block text-xs font-poppins font-bold text-[#123C32]">
+                  <label className="block text-xs font-medium text-[#123C32]">
                     {t('modal.notes', { ns: 'offers' })}
                   </label>
                   <textarea
@@ -742,13 +770,13 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                     value={notes}
                     onChange={(e) => setNotes(e.target.value)}
                     placeholder={t('modal.notesPh', { ns: 'offers' })}
-                    className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-poppins text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all resize-none placeholder:text-[#5E6D68]/50"
+                    className="w-full px-4 py-3 rounded-2xl bg-white border border-[#E2DFD5] text-sm font-sans text-[#111817] focus:outline-hidden focus:border-[#04846E] focus:ring-2 focus:ring-[#04846E]/20 transition-all resize-none placeholder:text-[#5E6D68]/50"
                   />
                 </div>
 
                 {/* Trust and Submit row */}
                 <div className="pt-3 border-t border-[#E2DFD5] space-y-4">
-                  <div className="flex flex-wrap items-center justify-between gap-3 text-xs font-poppins text-[#5E6D68]">
+                  <div className="flex flex-wrap items-center justify-between gap-3 text-xs font-sans text-[#5E6D68]">
                     <div className="flex items-center gap-1.5 font-medium">
                       <ShieldCheck className="w-4 h-4 text-[#04846E]" />
                       <span>{t('modal.trust1', { ns: 'offers' })}</span>
@@ -763,7 +791,7 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                     <button
                       type="button"
                       onClick={onClose}
-                      className="px-5 py-3 rounded-full text-xs font-poppins font-bold text-[#5E6D68] hover:bg-black/5 transition-colors cursor-pointer"
+                      className="px-5 py-3 rounded-full text-xs font-medium text-[#5E6D68] hover:bg-black/5 transition-colors cursor-pointer"
                     >
                       {t('modal.cancel', { ns: 'offers' })}
                     </button>
@@ -771,7 +799,7 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                     <button
                       type="button"
                       onClick={handleWhatsAppSubmit}
-                      className="py-3.5 px-6 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-poppins text-xs font-bold uppercase tracking-wider inline-flex items-center gap-2 shadow-md cursor-pointer transition-all active:scale-[0.98]"
+                      className="py-3.5 px-6 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-semibold text-xs uppercase tracking-wider inline-flex items-center gap-2 shadow-md cursor-pointer transition-all active:scale-[0.98]"
                     >
                       <WhatsAppIcon className="w-4 h-4" />
                       <span>{t('modal.sendWa', { ns: 'offers' })}</span>
@@ -780,7 +808,7 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="farmio-btn-accent px-7 py-3.5 text-xs font-poppins font-bold uppercase tracking-wider cursor-pointer inline-flex items-center gap-2 shadow-lg disabled:opacity-50"
+                      className="farmio-btn-accent px-7 py-3.5 text-xs font-semibold uppercase tracking-wider cursor-pointer inline-flex items-center gap-2 shadow-lg disabled:opacity-50"
                     >
                       {isSubmitting ? (
                         <span>{t('modal.sending', { ns: 'offers' })}</span>
@@ -798,6 +826,7 @@ export const CompanySetupModal: React.FC<CompanySetupModalProps> = ({
             )}
 
           </motion.div>
+          </div>
         </div>
       )}
     </AnimatePresence>

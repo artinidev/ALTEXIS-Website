@@ -22,12 +22,15 @@ export const OfferDetailModal: React.FC<OfferDetailModalProps> = ({
       if (e.key === 'Escape') onClose();
     };
     if (isOpen) {
+      document.body.classList.add('modal-open');
       document.body.style.overflow = 'hidden';
       window.addEventListener('keydown', handleKeyDown);
     } else {
+      document.body.classList.remove('modal-open');
       document.body.style.overflow = '';
     }
     return () => {
+      document.body.classList.remove('modal-open');
       document.body.style.overflow = '';
       window.removeEventListener('keydown', handleKeyDown);
     };
@@ -39,13 +42,15 @@ export const OfferDetailModal: React.FC<OfferDetailModalProps> = ({
     <AnimatePresence>
       {isOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 md:p-8 overflow-y-auto bg-[#111817]/75 backdrop-blur-md"
+          data-lenis-prevent="true"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 md:p-8 overflow-y-auto bg-[#111817]/75 backdrop-blur-md [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
           onClick={onClose}
           role="dialog"
           aria-modal="true"
           aria-labelledby="modal-offer-title"
         >
           <motion.div
+            data-lenis-prevent="true"
             initial={{ opacity: 0, scale: 0.96, y: 15 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.96, y: 15 }}
@@ -105,7 +110,7 @@ export const OfferDetailModal: React.FC<OfferDetailModalProps> = ({
             </div>
 
             {/* Modal Body / Scrollable Content */}
-            <div className="p-6 sm:p-8 overflow-y-auto space-y-8 flex-1">
+            <div data-lenis-prevent="true" className="p-6 sm:p-8 overflow-y-auto space-y-8 flex-1 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
               
               {/* Description & Key stats */}
               <div>

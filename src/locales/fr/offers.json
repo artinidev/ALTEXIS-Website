@@ -230,7 +230,7 @@
     "email": "Email professionnel",
     "emailPh": "contact@votre-entreprise.com",
     "phone": "Numéro de téléphone / WhatsApp",
-    "phonePh": "+213 670 13 23 53",
+    "phonePh": "0560 18 98 25",
     "startDate": "Date de démarrage souhaitée",
     "startDatePh": "Ex: Immédiat / Début du mois prochain",
     "teamSize": "Nombre de personnes / postes",
@@ -254,5 +254,92 @@
     "followWa": "Suivre sur WhatsApp",
     "close": "Fermer",
     "directCall": "Appel direct"
+  },
+  "brandingSection": {
+    "badge": "Studio Créatif & Développement Web3",
+    "title": "Identité de Marque & Sites Web3 de Nouvelle Génération",
+    "subtitle": "De la création de votre logo et charte graphique jusqu’au déploiement de sites web ultra-modernes et plateformes Web3 immersives, offrez à votre entreprise une présence visuelle d’exception.",
+    "tabs": {
+      "bundle": "Pack Complet",
+      "branding": "Branding",
+      "website": "Web3 & Sites"
+    },
+    "brandPillar": {
+      "title": "Identité Visuelle & Branding Intégral",
+      "badge": "Logo • Brand Book • Supports",
+      "deliverablesTitle": "Livrables & Actifs Inclus :",
+      "cta": "Configurer Devis Branding Seul",
+      "desc": "Conception d'un univers de marque mémorable, cohérent et impactant sur tous vos points de contact.",
+      "deliverables": [
+        "Logo sur-mesure complet (Principal, secondaire, monogramme, favicon vectoriel SVG)",
+        "Charte Graphique & Brand Book officiel (Règles d'usage, typographies, palettes chromatiques)",
+        "Kit Réseaux Sociaux (Templates éditables LinkedIn, Instagram, X/Twitter, bannières)",
+        "Papeterie d'Entreprise (Cartes de visite haut de gamme, papier en-tête, signatures email)"
+      ]
+    },
+    "webPillar": {
+      "title": "Sites Modernes & Écosystèmes Web3",
+      "badge": "Web3 • Vitrine Moderne • Responsive",
+      "deliverablesTitle": "Technologies & Standards Intégrés :",
+      "cta": "Configurer Devis Site Web3 Seul",
+      "desc": "Création de vitrines web haute performance alliant design futuriste, animations fluides et technologies Web3.",
+      "deliverables": [
+        "Design UI/UX sur mesure (ergonomie intuitive, identité visuelle soignée et adaptée à votre secteur)",
+        "Développement web haute performance (chargement instantané, 100% fluide sur mobiles et tablettes)",
+        "Intégration Web3 & Fonctionnalités Avancées (dashboards connectés, interactivité et outils modernes)",
+        "Référencement naturel (SEO), sécurité renforcée et intégration directe de vos canaux de contact"
+      ]
+    },
+    "highlights": {
+      "speed": {
+        "title": "Livraison Rapide",
+        "desc": "5 à 10 jours ouvrés selon périmètre"
+      },
+      "ownership": {
+        "title": "100% Propriétaire",
+        "desc": "Fichiers sources & code remis sans restriction"
+      },
+      "support": {
+        "title": "Canal Direct Dédié",
+        "desc": "Échange WhatsApp direct : 0560 18 98 25"
+      }
+    },
+    "tagline": "Création 100% sur-mesure • 0 template générique • Code propre & fichiers sources inclus",
+    "cta": "Lancer votre Projet Branding & Web3",
+    "ctaSecondary": "Personnaliser votre devis"
+  },
+  "brandingModal": {
+    "eyebrow": "DEMANDE EXPRESS • STUDIO & WEB",
+    "title": "Votre Projet Branding & Web",
+    "desc": "Indiquez simplement votre besoin essentiel. Notre équipe commerciale vous recontactera rapidement pour vous conseiller et finaliser l'offre.",
+    "serviceTypeLabel": "Type de prestation souhaitée",
+    "contactDetails": "Vos Coordonnées",
+    "types": {
+      "bundle": "Pack Studio Complet",
+      "bundleSub": "Branding & Logo + Site Web Moderne",
+      "branding": "Identité Visuelle & Logo",
+      "brandingSub": "Logo vectoriel, charte & supports",
+      "website": "Site Web Moderne / Web3",
+      "websiteSub": "Vitrine d'entreprise ou plateforme"
+    },
+    "fullName": "Nom & Prénom",
+    "fullNamePh": "ex: Mohamed Amine",
+    "companyName": "Nom de l'Entreprise / Projet",
+    "companyNamePh": "ex: SARL Altexis / En création",
+    "email": "Adresse Email",
+    "emailPh": "ex: contact@entreprise.com",
+    "phone": "Numéro de Téléphone / WhatsApp",
+    "phonePh": "ex: 0550 12 34 56",
+    "commercialNotice": "Notre équipe commerciale étudiera votre demande et vous contactera rapidement par téléphone ou WhatsApp pour cadrer votre projet.",
+    "cta": {
+      "submit": "Envoyer ma Demande",
+      "submitting": "Envoi en cours...",
+      "sendWa": "Échanger directement sur WhatsApp",
+      "successTitle": "Demande transmise avec succès !",
+      "successDesc": "Votre demande a été enregistrée. Notre équipe commerciale va vous contacter très prochainement au numéro indiqué.",
+      "ref": "Référence de votre dossier :",
+      "followWa": "Poursuivre sur WhatsApp",
+      "close": "Fermer"
+    }
   }
 }

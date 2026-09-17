@@ -230,7 +230,7 @@
     "email": "Business Email",
     "emailPh": "contact@your-company.com",
     "phone": "Phone Number / WhatsApp",
-    "phonePh": "+213 670 13 23 53",
+    "phonePh": "0560 18 98 25",
     "startDate": "Desired Start Date",
     "startDatePh": "e.g. Immediate / Next month",
     "teamSize": "Team Size / Desks",
@@ -254,5 +254,92 @@
     "followWa": "Follow-up on WhatsApp",
     "close": "Close",
     "directCall": "Direct Call"
+  },
+  "brandingSection": {
+    "badge": "Creative Studio & Web3 Development",
+    "title": "Brand Identity & Next-Gen Web3 Websites",
+    "subtitle": "From crafting your custom logo and brand guidelines to launching ultra-modern websites and immersive Web3 platforms, give your company a distinguished visual presence.",
+    "tabs": {
+      "bundle": "Full Bundle",
+      "branding": "Branding",
+      "website": "Web3 & Websites"
+    },
+    "brandPillar": {
+      "title": "Visual Identity & Complete Branding",
+      "badge": "Logo • Brand Book • Marketing Assets",
+      "deliverablesTitle": "Deliverables & Included Assets:",
+      "cta": "Configure Branding Quote Only",
+      "desc": "Designing a memorable, cohesive, and impactful brand universe across all your touchpoints.",
+      "deliverables": [
+        "Complete Custom Logo (Primary, secondary, mark, vector SVG favicon)",
+        "Brand Guidelines & Official Brand Book (Usage rules, typography, color schemes)",
+        "Social Media Kit (Editable templates for LinkedIn, Instagram, X/Twitter, banners)",
+        "Corporate Stationery (Premium business cards, letterheads, email signatures)"
+      ]
+    },
+    "webPillar": {
+      "title": "Modern Websites & Web3 Systems",
+      "badge": "Web3 • Modern Showcase • Responsive",
+      "deliverablesTitle": "Integrated Technologies & Standards:",
+      "cta": "Configure Web3 Website Quote Only",
+      "desc": "High-performance web showcases combining futuristic aesthetics, fluid animations, and modern Web3 technologies.",
+      "deliverables": [
+        "Bespoke UI/UX Design (intuitive user flow, refined visual identity tailored to your market)",
+        "High-Performance Web Architecture (instant loading, 100% fluid on mobile and tablets)",
+        "Web3 & Advanced Features (connected dashboards, smart widgets, interactive components)",
+        "Advanced SEO optimization, enhanced enterprise security, and direct contact integration"
+      ]
+    },
+    "highlights": {
+      "speed": {
+        "title": "Fast Delivery",
+        "desc": "5 to 10 business days depending on project scope"
+      },
+      "ownership": {
+        "title": "100% Ownership",
+        "desc": "Source files & full clean code handed over without restrictions"
+      },
+      "support": {
+        "title": "Dedicated Direct Channel",
+        "desc": "Direct WhatsApp assistance: 0560 18 98 25"
+      }
+    },
+    "tagline": "100% Bespoke Craft • Zero generic templates • Clean code & full source files included",
+    "cta": "Launch Your Branding & Web3 Project",
+    "ctaSecondary": "Customize your quote"
+  },
+  "brandingModal": {
+    "eyebrow": "EXPRESS INTAKE • STUDIO & WEB",
+    "title": "Your Branding & Web Project",
+    "desc": "Provide just the essentials. Our commercial team will contact you shortly to review your requirements and share an offer.",
+    "serviceTypeLabel": "Type of Required Service",
+    "contactDetails": "Your Contact Information",
+    "types": {
+      "bundle": "Full Studio Bundle",
+      "bundleSub": "Branding & Logo + Modern Website",
+      "branding": "Brand Identity & Logo",
+      "brandingSub": "Vector logo, guidelines & assets",
+      "website": "Modern Website / Web3",
+      "websiteSub": "Corporate showcase or platform"
+    },
+    "fullName": "Full Name",
+    "fullNamePh": "e.g. John Doe",
+    "companyName": "Company or Project Name",
+    "companyNamePh": "e.g. Acme Corp / New Venture",
+    "email": "Email Address",
+    "emailPh": "e.g. contact@company.com",
+    "phone": "Phone Number / WhatsApp",
+    "phonePh": "e.g. +213 550 12 34 56",
+    "commercialNotice": "Our commercial team will review your request and get in touch with you shortly via phone or WhatsApp to finalize your project.",
+    "cta": {
+      "submit": "Submit My Request",
+      "submitting": "Sending...",
+      "sendWa": "Chat directly on WhatsApp",
+      "successTitle": "Request Received Successfully!",
+      "successDesc": "Your request has been registered. Our commercial team will contact you shortly on the number provided.",
+      "ref": "Your reference ID:",
+      "followWa": "Continue on WhatsApp",
+      "close": "Close"
+    }
   }
 }

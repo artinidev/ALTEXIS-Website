@@ -10,7 +10,7 @@ import {
   ShieldCheck,
 } from 'lucide-react';
 
-const WHATSAPP_NUMBER = '213670132353';
+const WHATSAPP_NUMBER = '213560189825';
 
 // Official WhatsApp SVG Brand Icon
 export const WhatsAppIcon: React.FC<{ className?: string }> = ({ className = 'w-5 h-5' }) => (
@@ -166,7 +166,7 @@ export const WhatsAppFloatingButton: React.FC = () => {
       onlineStatus: 'Conseillers en ligne • Réponse rapide',
       chooseTopic: 'Choisissez votre sujet :',
       openDirect: 'Ouvrir une discussion directe',
-      trustNotice: 'Discussion officielle ALTEXIS (+213 670 13 23 53)',
+      trustNotice: 'Discussion officielle ALTEXIS (0560 18 98 25)',
       closeAria: 'Fermer',
       triggerAria: 'Contacter sur WhatsApp',
     },
@@ -175,7 +175,7 @@ export const WhatsAppFloatingButton: React.FC = () => {
       onlineStatus: 'Advisors Online • Fast Response',
       chooseTopic: 'Choose your topic:',
       openDirect: 'Start Direct Discussion',
-      trustNotice: 'Official ALTEXIS Desk (+213 670 13 23 53)',
+      trustNotice: 'Official ALTEXIS Desk (+213 560 18 98 25)',
       closeAria: 'Close',
       triggerAria: 'Contact on WhatsApp',
     },
@@ -184,7 +184,7 @@ export const WhatsAppFloatingButton: React.FC = () => {
       onlineStatus: 'المستشارون متصلون • رد سريع',
       chooseTopic: 'اختر موضوع استفسارك:',
       openDirect: 'بدء محادثة مباشرة الآن',
-      trustNotice: 'المكتب الرسمي لألتيكسيس (+213 670 13 23 53)',
+      trustNotice: 'المكتب الرسمي لألتيكسيس (0560 18 98 25)',
       closeAria: 'إغلاق',
       triggerAria: 'تواصل معنا عبر واتساب',
     },
@@ -193,7 +193,7 @@ export const WhatsAppFloatingButton: React.FC = () => {
     onlineStatus: 'Conseillers en ligne • Réponse rapide',
     chooseTopic: 'Choisissez votre sujet :',
     openDirect: 'Ouvrir une discussion directe',
-    trustNotice: 'Discussion officielle ALTEXIS (+213 670 13 23 53)',
+    trustNotice: 'Discussion officielle ALTEXIS (0560 18 98 25)',
     closeAria: 'Fermer',
     triggerAria: 'Contacter sur WhatsApp',
   };

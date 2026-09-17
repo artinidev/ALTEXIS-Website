@@ -46,6 +46,17 @@ function MainApp() {
       wheelMultiplier: 1.05,
       touchMultiplier: 1.2,
       syncTouch: false, // Keep native 120Hz touch momentum on mobile/trackpads
+      allowNestedScroll: true,
+      prevent: (node) => {
+        if (!node) return false;
+        const el = node as Element;
+        return Boolean(
+          el.hasAttribute?.('data-lenis-prevent') ||
+          el.closest?.('[data-lenis-prevent]') ||
+          el.closest?.('[role="dialog"]') ||
+          document.body.classList.contains('modal-open')
+        );
+      },
     });
 
     let rafId: number;
