@@ -1,9 +1,11 @@
 {
   "hero": {
-    "badge": "Certified Business Center • Residence El Ferdous, Dely Ibrahim",
+    "badge": "Accredited Business Center • Residence El Ferdous, Dely Ibrahim",
     "titlePrefix": "Company Setup &",
     "titleHighlight": "Turnkey Business Solutions",
-    "description": "Explore all our offers, pricing, and services directly: legal company domiciliation, coworking spaces & private offices, company creation, and strategic advisory.",
+    "description": "Explore all our offers, pricing, and services directly: legal domiciliation, coworking & private offices, company incorporation, and strategic business advisory.",
+    "navBranding": "Branding & Web3",
+    "navServices": "Business Services",
     "trust": {
       "cnrc": "CNRC Certified",
       "cnrcVal": "100% Legally Compliant",
@@ -18,8 +20,10 @@
   "sections": {
     "s1": {
       "tag": "Section 01",
-      "title": "Company Domiciliation & Registered Office",
-      "description": "Establish your legal registered address in Dely Ibrahim with full CNRC compliance and certified mail management. Choose your plan directly:",
+      "title": "Company Domiciliation",
+      "subtitle": "A prestigious address to enhance your company's image.",
+      "description": "Establish your registered head office in Dély Ibrahim, one of Algiers' most sought-after business districts. Benefit from an accredited professional address and a domiciliation contract compliant with CNRC requirements.",
+      "formulaIntro": "Choose the package tailored to your business:",
       "badge": "Official certificate provided",
       "silver": {
         "tag": "Plan 01",
@@ -93,7 +97,7 @@
         "badge": "Flexible Open Space",
         "title": "Coworking",
         "desc": "Dedicated desk in a dynamic, quiet business atmosphere. Ideal for freelancers and digital nomads.",
-        "price": "1,500",
+        "price": "1,800",
         "unit": "DZD",
         "period": "/ day",
         "label": "Daily rate",
@@ -113,7 +117,7 @@
         "badge": "Private Furnished Office",
         "title": "Private Office",
         "desc": "Fully enclosed, furnished executive office designed for focused leadership and client meetings.",
-        "price": "6,500",
+        "price": "7,500",
         "unit": "DZD",
         "period": "/ day",
         "label": "Daily rate",
@@ -132,7 +136,7 @@
         "badge": "Capacity 6 to 20 persons",
         "title": "Meeting Room",
         "desc": "Executive meeting and boardroom space for your client presentations, trainings, and board reviews.",
-        "price": "8,000",
+        "price": "9,500",
         "unit": "DZD",
         "period": "/ day",
         "label": "Daily rate",
@@ -149,9 +153,18 @@
       }
     },
     "s3": {
-      "tag": "Section 03",
-      "title": "Advisory & Business Services",
-      "description": "A dedicated team of legal, tax, and digital experts by your side to secure compliance and scale your business in Algeria.",
+      "tag": "Section 04",
+      "title": "Corporate & Business Services",
+      "subtitle": "Everything your business needs, all in one place.",
+      "description": "From incorporation to business growth, ALTEXIS supports you with professional solutions tailored to every stage of your activity.",
+      "servicesList": [
+        "Company Creation",
+        "Accounting & Tax",
+        "Legal Advisory",
+        "Branding & Visual Identity",
+        "Website Development",
+        "Digital Marketing"
+      ],
       "quoteDelay": "Quote within 24h",
       "creation": {
         "badge": "SARL • EURL • SPA • SNC",
@@ -256,6 +269,7 @@
     "directCall": "Direct Call"
   },
   "brandingSection": {
+    "tag": "Section 03",
     "badge": "Creative Studio & Web3 Development",
     "title": "Brand Identity & Next-Gen Web3 Websites",
     "subtitle": "From crafting your custom logo and brand guidelines to launching ultra-modern websites and immersive Web3 platforms, give your company a distinguished visual presence.",

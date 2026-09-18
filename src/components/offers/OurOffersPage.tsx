@@ -145,11 +145,19 @@ export const OurOffersPage: React.FC<OurOffersPageProps> = ({ onOpenContactModal
             </button>
 
             <button
+              onClick={() => scrollToSection('section-branding')}
+              className="px-5 py-3 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/15 backdrop-blur-md text-white text-xs font-heading font-semibold inline-flex items-center gap-2 cursor-pointer transition-all duration-200"
+            >
+              <Sparkles className="w-4 h-4 text-[#8EDB68]" />
+              <span>3. {t('hero.navBranding', { ns: 'offers' })}</span>
+            </button>
+
+            <button
               onClick={() => scrollToSection('section-assistance')}
               className="px-5 py-3 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/15 backdrop-blur-md text-white text-xs font-heading font-semibold inline-flex items-center gap-2 cursor-pointer transition-all duration-200"
             >
               <Compass className="w-4 h-4 text-[#8EDB68]" />
-              <span>3. {t('sections.s3.title', { ns: 'offers' })}</span>
+              <span>4. {t('hero.navServices', { ns: 'offers' })}</span>
             </button>
           </div>
 
@@ -187,7 +195,7 @@ export const OurOffersPage: React.FC<OurOffersPageProps> = ({ onOpenContactModal
           
           {/* Section Header */}
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-6 border-b border-[#E2DFD5]">
-            <div className="max-w-3xl space-y-2">
+            <div className="max-w-3xl space-y-3">
               <div className="inline-flex items-center gap-2 text-xs font-heading font-semibold text-[#04846E] bg-[#04846E]/10 px-3 py-1 rounded-full">
                 <Building2 className="w-3.5 h-3.5" />
                 <span>{t('sections.s1.tag', { ns: 'offers' })}</span>
@@ -195,8 +203,14 @@ export const OurOffersPage: React.FC<OurOffersPageProps> = ({ onOpenContactModal
               <h2 className="font-heading text-2xl sm:text-4xl lg:text-[44px] font-semibold text-[#123C32] tracking-tight leading-[1.15]">
                 {t('sections.s1.title', { ns: 'offers' })}
               </h2>
+              <p className="text-base sm:text-lg font-heading font-medium text-[#123C32]/90">
+                {t('sections.s1.subtitle', { ns: 'offers' })}
+              </p>
               <p className="text-sm sm:text-base text-[#5E6D68] leading-relaxed">
                 {t('sections.s1.description', { ns: 'offers' })}
+              </p>
+              <p className="text-xs sm:text-sm font-heading font-semibold text-[#04846E] pt-1">
+                {t('sections.s1.formulaIntro', { ns: 'offers' })}
               </p>
             </div>
 
@@ -503,7 +517,7 @@ export const OurOffersPage: React.FC<OurOffersPageProps> = ({ onOpenContactModal
               {/* Action Button */}
               <div className="pt-8 mt-6 border-t border-[#E2DFD5]">
                 <button
-                  onClick={() => onOpenContactModal('Réservation Espace Coworking (1 500 DZD/jour)')}
+                  onClick={() => onOpenContactModal('Réservation Espace Coworking (1 800 DZD/jour)')}
                   className="w-full farmio-btn-accent px-5 py-3.5 text-xs font-heading font-semibold uppercase tracking-wider cursor-pointer flex items-center justify-center gap-2 shadow-sm active:scale-[0.98] transition-transform"
                 >
                   <span>{t('sections.s2.coworking.cta', { ns: 'offers' })}</span>
@@ -513,7 +527,7 @@ export const OurOffersPage: React.FC<OurOffersPageProps> = ({ onOpenContactModal
             </div>
 
 
-            {/* 2. BUREAU PRIVATIF (6 500 DZD / jour) */}
+            {/* 2. BUREAU PRIVATIF (7 500 DZD / jour) */}
             <div className="relative rounded-3xl bg-white border-2 border-[#04846E] p-7 sm:p-8 flex flex-col justify-between shadow-md hover:shadow-xl transition-all duration-300">
               
               <div className="absolute -top-3 left-6 px-3.5 py-0.5 rounded-full bg-[#04846E] text-white font-heading text-[10px] font-semibold uppercase tracking-wider">
@@ -573,7 +587,7 @@ export const OurOffersPage: React.FC<OurOffersPageProps> = ({ onOpenContactModal
               {/* Action Button */}
               <div className="pt-8 mt-6 border-t border-[#E2DFD5]">
                 <button
-                  onClick={() => onOpenContactModal('Réservation Bureau Privatif (6 500 DZD/jour)')}
+                  onClick={() => onOpenContactModal('Réservation Bureau Privatif (7 500 DZD/jour)')}
                   className="w-full farmio-btn-accent px-5 py-3.5 text-xs font-heading font-semibold uppercase tracking-wider cursor-pointer flex items-center justify-center gap-2 shadow-sm active:scale-[0.98] transition-transform"
                 >
                   <span>{t('sections.s2.office.cta', { ns: 'offers' })}</span>
@@ -583,7 +597,7 @@ export const OurOffersPage: React.FC<OurOffersPageProps> = ({ onOpenContactModal
             </div>
 
 
-            {/* 3. SALLE DE RÉUNION (8 000 DZD / jour) */}
+            {/* 3. SALLE DE RÉUNION (9 500 DZD / jour) */}
             <div className="relative rounded-3xl bg-white border border-[#E2DFD5] p-7 sm:p-8 flex flex-col justify-between shadow-sm hover:shadow-xl hover:border-[#04846E]/40 transition-all duration-300">
               <div className="space-y-6">
                 
@@ -638,7 +652,7 @@ export const OurOffersPage: React.FC<OurOffersPageProps> = ({ onOpenContactModal
               {/* Action Button */}
               <div className="pt-8 mt-6 border-t border-[#E2DFD5]">
                 <button
-                  onClick={() => onOpenContactModal('Réservation Salle de Réunion (8 000 DZD/jour)')}
+                  onClick={() => onOpenContactModal('Réservation Salle de Réunion (9 500 DZD/jour)')}
                   className="w-full farmio-btn-outline px-5 py-3 text-xs font-heading font-semibold uppercase tracking-wider cursor-pointer flex items-center justify-center gap-2 active:scale-[0.98] transition-transform"
                 >
                   <span>{t('sections.s2.meeting.cta', { ns: 'offers' })}</span>
@@ -653,14 +667,21 @@ export const OurOffersPage: React.FC<OurOffersPageProps> = ({ onOpenContactModal
 
 
         {/* =========================================================================
-            SECTION 3 : ASSISTANCE & CONSEILS (Sur Devis)
-            (Création d'entreprise - Conseils & accompagnement - Transformation Digitale)
+            SECTION 3 : IDENTITÉ DE MARQUE & SITES WEB3 (Studio Showcase)
+           ========================================================================= */}
+        <section id="section-branding" className="scroll-mt-32">
+          <BrandingShowcaseSection onOpenBrandingModal={handleOpenBrandingModal} />
+        </section>
+
+
+        {/* =========================================================================
+            SECTION 4 : SERVICES AUX ENTREPRISES
            ========================================================================= */}
         <section id="section-assistance" className="scroll-mt-32 space-y-10">
           
           {/* Section Header */}
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-6 border-b border-[#E2DFD5]">
-            <div className="max-w-3xl space-y-2">
+            <div className="max-w-3xl space-y-3">
               <div className="inline-flex items-center gap-2 text-xs font-heading font-semibold text-[#04846E] bg-[#04846E]/10 px-3 py-1 rounded-full">
                 <Compass className="w-3.5 h-3.5" />
                 <span>{t('sections.s3.tag', { ns: 'offers' })}</span>
@@ -668,9 +689,23 @@ export const OurOffersPage: React.FC<OurOffersPageProps> = ({ onOpenContactModal
               <h2 className="font-heading text-2xl sm:text-4xl lg:text-[44px] font-semibold text-[#123C32] tracking-tight leading-[1.15]">
                 {t('sections.s3.title', { ns: 'offers' })}
               </h2>
+              <p className="text-base sm:text-lg font-heading font-medium text-[#123C32]/90">
+                {t('sections.s3.subtitle', { ns: 'offers' })}
+              </p>
               <p className="text-sm sm:text-base text-[#5E6D68] leading-relaxed">
                 {t('sections.s3.description', { ns: 'offers' })}
               </p>
+              <div className="flex flex-wrap items-center gap-2 pt-2">
+                {getFeatures('sections.s3.servicesList').map((serviceItem, idx) => (
+                  <span
+                    key={idx}
+                    className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white border border-[#E2DFD5] text-xs font-sans font-medium text-[#123C32] shadow-2xs"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#04846E]" />
+                    <span>{serviceItem}</span>
+                  </span>
+                ))}
+              </div>
             </div>
 
             <div className="flex items-center gap-2 text-xs font-heading font-semibold text-[#123C32] bg-white border border-[#E2DFD5] px-4 py-2.5 rounded-2xl shadow-xs shrink-0">
@@ -879,11 +914,6 @@ export const OurOffersPage: React.FC<OurOffersPageProps> = ({ onOpenContactModal
               </div>
             </div>
 
-          </div>
-
-          {/* Dedicated Creative & Web3 Branding Studio Showcase */}
-          <div className="pt-8">
-            <BrandingShowcaseSection onOpenBrandingModal={handleOpenBrandingModal} />
           </div>
 
         </section>

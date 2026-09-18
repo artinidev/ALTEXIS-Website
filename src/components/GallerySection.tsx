@@ -24,7 +24,7 @@ export const GallerySection: React.FC = () => {
         aspect: 'aspect-[16/10]',
       },
       {
-        url: getOptimizedImageUrl('https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122', { width: 700, quality: 75, format: 'webp' }),
+        url: '/hot-forged-metallurgy.jpg',
         title: 'Hot-Forged Metallurgy & Mill Fabrication',
         subtitle: 'High-pressure alloy components and API-grade flanges for energy & industrial projects',
         span: 'lg:col-span-5',
@@ -54,7 +54,7 @@ export const GallerySection: React.FC = () => {
         aspect: 'aspect-[16/10]',
       },
       {
-        url: getOptimizedImageUrl('https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122', { width: 700, quality: 75, format: 'webp' }),
+        url: '/hot-forged-metallurgy.jpg',
         title: 'Métallurgie & Pièces Forgées Industrielles',
         subtitle: 'Composants haute pression et brides forgées certifiées pour le secteur de l\'énergie',
         span: 'lg:col-span-5',
@@ -84,7 +84,7 @@ export const GallerySection: React.FC = () => {
         aspect: 'aspect-[16/10]',
       },
       {
-        url: getOptimizedImageUrl('https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122', { width: 700, quality: 75, format: 'webp' }),
+        url: '/hot-forged-metallurgy.jpg',
         title: 'المعادن المطروقة والسبائك الصناعية',
         subtitle: 'مكونات الضغط العالي والفلنجات المطابقة لمعايير API لمشاريع الطاقة والصناعة',
         span: 'lg:col-span-5',

@@ -7,7 +7,7 @@ export const AboutImpactSection: React.FC = () => {
 
   const stats = [
     {
-      value: '12+',
+      value: '20+',
       label: i18n.language === 'fr' ? 'Années d\'expérience' : i18n.language === 'ar' ? 'سنوات من الخبرة' : 'Years of experience',
     },
     {
@@ -15,8 +15,8 @@ export const AboutImpactSection: React.FC = () => {
       label: i18n.language === 'fr' ? 'Usines mondiales qualifiées' : i18n.language === 'ar' ? 'مصنع عالمي معتمد' : 'Qualified global mills',
     },
     {
-      value: '$4.2B',
-      label: i18n.language === 'fr' ? 'En achats industriels conseillés' : i18n.language === 'ar' ? 'حجم مشتريات استشارية' : 'In procurement advised',
+      value: '35%',
+      label: i18n.language === 'fr' ? 'Économies d\'achats potentielles' : i18n.language === 'ar' ? 'توفير محتمل في تكاليف الشراء' : 'Potential procurement savings',
     },
     {
       value: '98%',
@@ -47,7 +47,7 @@ export const AboutImpactSection: React.FC = () => {
                 {i18n.language === 'fr' ? (
                   <>
                     Conçu par des experts en chaîne d'approvisionnement forts d'une vaste expérience en sourcing et achats internationaux,{' '}
-                    <span className="inline-block bg-[#04303b]/10 text-[#123C32] px-3 py-0.5 rounded-xl font-medium">
+                    <span className="text-[#04846E]">
                       ALTEXIS
                     </span>{' '}
                     relie les entreprises à des fournisseurs de confiance et des solutions compétitives à travers le monde.
@@ -55,7 +55,7 @@ export const AboutImpactSection: React.FC = () => {
                 ) : i18n.language === 'ar' ? (
                   <>
                     بُنيت بواسطة خبراء في سلاسل الإمداد يتمتعون بخبرة واسعة في التوريد والمشتريات الدولية، تربط{' '}
-                    <span className="inline-block bg-[#04303b]/10 text-[#123C32] px-3 py-0.5 rounded-xl font-medium">
+                    <span className="text-[#04846E]">
                       ألتيكسيس (ALTEXIS)
                     </span>{' '}
                     الشركات بالموردين الموثوقين والحلول التنافسية في جميع أنحاء العالم.
@@ -63,7 +63,7 @@ export const AboutImpactSection: React.FC = () => {
                 ) : (
                   <>
                     Built by supply chain experts with extensive experience in global sourcing and procurement,{' '}
-                    <span className="inline-block bg-[#04303b]/10 text-[#123C32] px-3 py-0.5 rounded-xl font-medium">
+                    <span className="text-[#04846E]">
                       ALTEXIS
                     </span>{' '}
                     connects businesses with trusted suppliers and competitive solutions worldwide.

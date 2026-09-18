@@ -26,7 +26,7 @@ export const StickyServicesSection: React.FC<StickyServicesSectionProps> = ({ on
         num: '02',
         title: 'Source',
         desc: 'We identify suppliers that match your technical and commercial requirements. We tap directly into qualified manufacturers and tier-1 mills across vetted international trade corridors.',
-        image: getOptimizedImageUrl('https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122', { width: 1000, quality: 75, format: 'webp' }),
+        image: '/hot-forged-metallurgy.jpg',
       },
       {
         num: '03',
@@ -58,7 +58,7 @@ export const StickyServicesSection: React.FC<StickyServicesSectionProps> = ({ on
         num: '02',
         title: 'Sourcer',
         desc: 'Nous identifions les usines et fournisseurs correspondant à vos critères techniques et commerciaux à travers des couloirs d\'approvisionnement internationaux qualifiés.',
-        image: getOptimizedImageUrl('https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122', { width: 1000, quality: 75, format: 'webp' }),
+        image: '/hot-forged-metallurgy.jpg',
       },
       {
         num: '03',
@@ -90,7 +90,7 @@ export const StickyServicesSection: React.FC<StickyServicesSectionProps> = ({ on
         num: '02',
         title: 'التوريد والبحث',
         desc: 'نحدد المصنعين والموردين العالميين المؤهلين القادرين على مطابقة مواصفاتك الهندسية والتجارية عبر ممرات التجارة المعتمدة لدينا.',
-        image: getOptimizedImageUrl('https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122', { width: 1000, quality: 75, format: 'webp' }),
+        image: '/hot-forged-metallurgy.jpg',
       },
       {
         num: '03',

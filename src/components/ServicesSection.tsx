@@ -15,7 +15,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenContactM
       title: 'Supplier Sourcing & Identification',
       desc: 'We identify qualified manufacturers, direct mills, and specialist fabricators capable of meeting your exact technical specifications without broker markups.',
       image1: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80',
-      image2: 'https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=600&q=80',
+      image2: '/hot-forged-metallurgy.jpg',
     },
     {
       title: '5-Point Supplier Verification',

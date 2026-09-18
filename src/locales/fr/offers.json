@@ -4,6 +4,8 @@
     "titlePrefix": "Création d’Entreprises &",
     "titleHighlight": "Solutions d’Affaires Clé en Main",
     "description": "Consultez directement l’ensemble de nos offres, tarifs et prestations : domiciliation légale, espaces de coworking & bureaux privatifs, création d’entreprise et conseil stratégique.",
+    "navBranding": "Branding & Web3",
+    "navServices": "Services aux entreprises",
     "trust": {
       "cnrc": "Agrément CNRC",
       "cnrcVal": "100% Conforme à la loi",
@@ -18,8 +20,10 @@
   "sections": {
     "s1": {
       "tag": "Section 01",
-      "title": "Domiciliation d'entreprises",
-      "description": "Fixez votre siège social à Dély Ibrahim avec une adresse commerciale agréée et un contrat conforme au CNRC. Choisissez directement votre formule :",
+      "title": "Domiciliation d’entreprises",
+      "subtitle": "Une adresse prestigieuse pour valoriser l’image de votre entreprise.",
+      "description": "Installez votre siège social à Dély Ibrahim, l’un des quartiers d’affaires les plus recherchés d’Alger. Profitez d’une adresse professionnelle agréée et d’un contrat de domiciliation conforme aux exigences du CNRC.",
+      "formulaIntro": "Choisissez la formule adaptée à votre entreprise :",
       "badge": "Attestation officielle fournie",
       "silver": {
         "tag": "Formule 01",
@@ -93,7 +97,7 @@
         "badge": "Open Space Flexible",
         "title": "Coworking",
         "desc": "Poste de travail dans un environnement dynamique et calme, parfait pour freelances et nomades digitaux.",
-        "price": "1 500",
+        "price": "1 800",
         "unit": "DZD",
         "period": "/ jour",
         "label": "Tarif journalier",
@@ -113,7 +117,7 @@
         "badge": "Bureau Fermé & Équipé",
         "title": "Bureau Privatif",
         "desc": "Espace fermé et confidentiel, entièrement meublé, pour diriger votre activité ou recevoir vos collaborateurs.",
-        "price": "6 500",
+        "price": "7 500",
         "unit": "DZD",
         "period": "/ jour",
         "label": "Tarif journalier",
@@ -132,7 +136,7 @@
         "badge": "Capacité 6 à 20 personnes",
         "title": "Salle de réunion",
         "desc": "Espace haut de gamme pour vos présentations, formations, comités de direction et rendez-vous clients.",
-        "price": "8 000",
+        "price": "9 500",
         "unit": "DZD",
         "period": "/ jour",
         "label": "Tarif journalier",
@@ -149,9 +153,18 @@
       }
     },
     "s3": {
-      "tag": "Section 03",
-      "title": "Assistance & Conseils",
-      "description": "Une équipe d’experts juridiques, fiscaux et digitaux à vos côtés pour sécuriser vos démarches et accélérer la croissance de votre entreprise en Algérie.",
+      "tag": "Section 04",
+      "title": "Services aux entreprises",
+      "subtitle": "Tout ce dont votre entreprise a besoin, au même endroit.",
+      "description": "De la création de votre société à son développement, ALTEXIS vous accompagne avec des solutions professionnelles adaptées à chaque étape de votre activité.",
+      "servicesList": [
+        "Création d’entreprise",
+        "Comptabilité & fiscalité",
+        "Conseil juridique",
+        "Branding & identité visuelle",
+        "Création de sites web",
+        "Marketing digital"
+      ],
       "quoteDelay": "Devis sous 24h ouvrées",
       "creation": {
         "badge": "SARL • EURL • SPA • SNC",
@@ -256,6 +269,7 @@
     "directCall": "Appel direct"
   },
   "brandingSection": {
+    "tag": "Section 03",
     "badge": "Studio Créatif & Développement Web3",
     "title": "Identité de Marque & Sites Web3 de Nouvelle Génération",
     "subtitle": "De la création de votre logo et charte graphique jusqu’au déploiement de sites web ultra-modernes et plateformes Web3 immersives, offrez à votre entreprise une présence visuelle d’exception.",

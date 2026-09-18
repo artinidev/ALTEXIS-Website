@@ -114,7 +114,7 @@ const SERVICE_ITEMS: ServiceItem[] = [
       en: 'Coworking Desk',
       ar: 'مساحة عمل مشتركة (Coworking)',
     },
-    price: { fr: '1 500 DZD', en: '1,500 DZD', ar: '1,500 د.ج' },
+    price: { fr: '1 800 DZD', en: '1,800 DZD', ar: '1,800 د.ج' },
     period: { fr: '/ jour', en: '/ day', ar: '/ يومياً' },
     badge: { fr: 'Open Space', en: 'Open Space', ar: 'مساحة مفتوحة' },
     icon: Laptop,
@@ -132,7 +132,7 @@ const SERVICE_ITEMS: ServiceItem[] = [
       en: 'Private Office',
       ar: 'مكتب خاص مؤثث',
     },
-    price: { fr: '6 500 DZD', en: '6,500 DZD', ar: '6,500 د.ج' },
+    price: { fr: '7 500 DZD', en: '7,500 DZD', ar: '7,500 د.ج' },
     period: { fr: '/ jour', en: '/ day', ar: '/ يومياً' },
     badge: { fr: 'Bureau Fermé', en: 'Lockable Office', ar: 'مكتب مغلق' },
     icon: DoorClosed,
@@ -150,20 +150,20 @@ const SERVICE_ITEMS: ServiceItem[] = [
       en: 'Meeting Room',
       ar: 'قاعة اجتماعات',
     },
-    price: { fr: '8 000 DZD', en: '8,000 DZD', ar: '8,000 د.ج' },
+    price: { fr: '9 500 DZD', en: '9,500 DZD', ar: '9,500 د.ج' },
     period: { fr: '/ jour', en: '/ day', ar: '/ يومياً' },
     badge: { fr: '6 à 20 pers.', en: '6 to 20 seats', ar: '6 إلى 20 شخص' },
     icon: Users,
   },
 
-  // 3. Assistance & Conseils
+  // 3. Services aux entreprises
   {
     id: 'as-creation',
     categoryKey: 's3',
     category: {
-      fr: 'Assistance & Conseils',
-      en: 'Advisory & Services',
-      ar: 'الاستشارات ومرافقة الأعمال',
+      fr: 'Services aux entreprises',
+      en: 'Corporate & Business Services',
+      ar: 'خدمات الشركات والأعمال',
     },
     title: {
       fr: 'Création d’entreprise',
@@ -178,9 +178,9 @@ const SERVICE_ITEMS: ServiceItem[] = [
     id: 'as-conseil',
     categoryKey: 's3',
     category: {
-      fr: 'Assistance & Conseils',
-      en: 'Advisory & Services',
-      ar: 'الاستشارات ومرافقة الأعمال',
+      fr: 'Services aux entreprises',
+      en: 'Corporate & Business Services',
+      ar: 'خدمات الشركات والأعمال',
     },
     title: {
       fr: 'Conseils & accompagnement',
@@ -195,9 +195,9 @@ const SERVICE_ITEMS: ServiceItem[] = [
     id: 'as-digital',
     categoryKey: 's3',
     category: {
-      fr: 'Assistance & Conseils',
-      en: 'Advisory & Services',
-      ar: 'الاستشارات ومرافقة الأعمال',
+      fr: 'Services aux entreprises',
+      en: 'Corporate & Business Services',
+      ar: 'خدمات الشركات والأعمال',
     },
     title: {
       fr: 'Transformation Digitale',

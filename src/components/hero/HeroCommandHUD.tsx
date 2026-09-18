@@ -42,7 +42,7 @@ const SECTORS: SectorConfig[] = [
     label: 'Forged Components',
     icon: Hammer,
     headline: 'Precision metallurgy, flanges & heavy forgings.',
-    image: 'https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122',
+    image: '/hot-forged-metallurgy.jpg',
     stat1: '380+',
     stat1Label: 'Tier-1 Forges',
     stat2: '100%',

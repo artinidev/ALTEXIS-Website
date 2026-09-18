@@ -22,7 +22,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenContactModal }
             <MotionReveal delay={0.2} direction="right">
               <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl aspect-[4/3] bg-[#141310]">
                 <img
-                  src="https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=80"
+                  src="/hot-forged-metallurgy.jpg"
                   alt="Industrial precision engineering and metal fabrication inspection"
                   className="w-full h-full object-cover grayscale opacity-85 hover:grayscale-0 hover:scale-[1.02] transition-all duration-700 ease-out"
                 />

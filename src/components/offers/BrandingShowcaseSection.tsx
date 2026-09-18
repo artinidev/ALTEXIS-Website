@@ -59,7 +59,7 @@ export const BrandingShowcaseSection: React.FC<BrandingShowcaseSectionProps> = (
           <div className="space-y-3 max-w-2xl">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#8EDB68]/15 border border-[#8EDB68]/30 text-[#8EDB68] font-heading text-xs font-semibold tracking-wider uppercase">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>{t('brandingSection.badge', { ns: 'offers' })}</span>
+              <span>{t('brandingSection.tag', { ns: 'offers' })} • {t('brandingSection.badge', { ns: 'offers' })}</span>
             </div>
 
             <h3 className="font-heading text-2xl sm:text-3xl lg:text-4xl font-semibold text-white tracking-tight leading-tight">
