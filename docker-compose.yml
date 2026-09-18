@@ -1,0 +1,11 @@
+services:
+  altexis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: altexis-website
+    restart: unless-stopped
+    ports:
+      - "${PORT:-80}:80"
+    environment:
+      - NODE_ENV=production

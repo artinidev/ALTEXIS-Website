@@ -1,32 +1,57 @@
-# React + TypeScript + Vite
+# ALTEXIS — Industrial & Corporate Showcase Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, high-performance web platform for **ALTEXIS**, built with React 19, TypeScript, Tailwind CSS, Vite, Framer Motion, and full i18n support (English, French, Arabic with RTL).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Quick Start (Local Development)
 
-## React Compiler
+### Prerequisites
+- Node.js 20+
+- npm or pnpm / yarn
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# Install dependencies
+npm install
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+# Start development server
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## 🐳 Deployment with Docker & Docker Compose
+
+### 1. Run using Docker Compose (Recommended)
+```bash
+# Start container in detached mode (listens on port 80 by default)
+docker compose up -d --build
+
+# Or specify a custom port:
+PORT=8080 docker compose up -d --build
+```
+
+Access the website at `http://localhost` (or `http://localhost:8080`).
+
+To stop the containers:
+```bash
+docker compose down
+```
+
+### 2. Standalone Docker Build & Run
+```bash
+# Build the Docker image
+docker build -t altexis-website .
+
+# Run the container
+docker run -d -p 80:80 --name altexis-web altexis-website
+```
+
+---
+
+## 🛠️ Scripts
+
+- `npm run dev`: Starts local Vite dev server with HMR
+- `npm run build`: Type-checks and creates production build in `dist/`
+- `npm run preview`: Previews production build locally
+- `npm run lint`: Runs Oxlint linter
